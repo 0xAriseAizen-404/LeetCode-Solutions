@@ -4,10 +4,10 @@
  * @return {number[]}
  */
 var map = function(arr, fn) {
-    var result = [];
+    const result = [];
     
-    for (var i = 0; i < arr.length; i++) {
-        result.push(fn(arr[i], i));
+    for(const i in arr) { // we use 'in' for index: String and 'of' for values
+        result.push(fn(arr[i], Number(i)));
     }
     
     return result;
