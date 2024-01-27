@@ -3,13 +3,14 @@
  * @return {Function}
  */
 var compose = function(functions) {
-    let value = 0;
+    const fn = (acc, f) => f(acc)
     return function(x) {
-        value = x;
-        for(let i=functions.length-1;i>=0;--i) {
-            value = functions[i](value);
-        }
-        return value;
+        return functions.reduceRight(fn, x)
+    //     let value = x;
+    //     for(let i=functions.length-1;i>=0;--i) {
+    //         value = functions[i](value);
+    //     }
+    //     return value;
     }
 };
 
