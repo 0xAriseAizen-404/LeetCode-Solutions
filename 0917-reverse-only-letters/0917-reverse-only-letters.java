@@ -4,48 +4,20 @@ class Solution {
         int left=0;
         int right = s.length()-1;
         int n = s.length();
-        char ch[]= s.toCharArray();
+        StringBuilder str = new StringBuilder(s);
         while(left<right)
         {
-            if(!isletter(ch[left]) && !islettercap(ch[left]))
-            {
-                left++;
-            }
-            if(!isletter(ch[right]) && !islettercap(ch[right]))
-            {
-                right--;
-            }
-            if((isletter(ch[left])==true || islettercap(ch[left])==true) && (isletter(ch[right])==true || islettercap(ch[right])==true))
-            {
-                char temp = ch[left];
-                ch[left]=ch[right];
-                ch[right]=temp;
+            if(!Character.isLetter(s.charAt(left))) left++;
+            if(!Character.isLetter(s.charAt(right))) right--;
+            if(Character.isLetter(s.charAt(left)) && Character.isLetter(s.charAt(right))) {
+                // s = s.substring(0, left) + s.charAt(right) + s.substring(left + 1);
+                // s = s.substring(0, right) + s.charAt(left) + s.substring(right + 1);
+                str.setCharAt(left, s.charAt(right));
+                str.setCharAt(right, s.charAt(left));
                 left++;
                 right--;
             }
         }
-        return new String(ch);
-    }
-    public boolean isletter(char ch)
-    {
-        for(char j = 'a' ; j<='z';j++)
-        {
-            if(ch==j)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
-    public boolean islettercap(char ch)
-    {
-        for(char j = 'A' ; j<='Z';j++)
-        {
-            if(ch==j)
-            {
-                return true;
-            }
-        }
-        return false;
+        return str.toString();
     }
 }
