@@ -11,13 +11,13 @@ class Solution{
         
         for(int val : nums) {
             if(map.get(val)) {
-                int length = 1, start = val+1;
+                int length = 1, start = val;
                 
-                while(map.containsKey(start))
-                    start++;
+                while(map.containsKey(start + length))
+                    length++;
                 
-                if((start-val)  > maxLength)
-                    maxLength = start-val;
+                if(length > maxLength)
+                    maxLength = length;
             }
         }
         
