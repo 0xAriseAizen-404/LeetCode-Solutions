@@ -1,22 +1,22 @@
 class Solution {
-    public int lengthOfLongestSubstring(String s) {
+public:
+    int lengthOfLongestSubstring(string s) {
         int left = 0;
         int right = 0;
-        int max_len = 0;
-        StringBuilder sb = new StringBuilder();
+        int maxLen = 0;
+        std::unordered_set<char> charSet;
 
         while (right < s.length()) {
-            if (sb.indexOf(String.valueOf(s.charAt(right))) != -1) {
-                max_len = Math.max(max_len, sb.length());
-                sb.delete(0, sb.indexOf(s.substring(right, right + 1)) + 1);
+            if (charSet.find(s[right]) == charSet.end()) {
+                charSet.insert(s[right]);
+                maxLen = std::max(maxLen, right - left + 1);
+                right++;
+            } else {
+                charSet.erase(s[left]);
+                left++;
             }
-            sb.append(s.charAt(right));
-            right++;
         }
 
-        // Check for the last substring
-        max_len = Math.max(max_len, sb.length());
-
-        return max_len;
+        return maxLen;
     }
-}
+};
