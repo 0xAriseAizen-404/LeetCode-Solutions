@@ -6,21 +6,21 @@
 var timeLimit = function(fn, t) {
     
     return async function(...args) {
-        // const originalFnPromise = fn(...args);
-        // const timeoutPromise = new Promise((_, reject) => {
-        //     setTimeout(() => {
-        //         reject('Time Limit Exceeded')
-        //     }, t);
-        // })
-        // return Promise.race([originalFnPromise, timeoutPromise]);
-        
-        return new Promise((resolve, reject) => {
-            const id = setTimeout(() => reject("Time Limit Exceeded"), t)
-            fn(...args)
-                .then(res => resolve(res))
-                .catch(err => reject(err))
-                .finally(() => clearTimeout(id))
+        const originalFnPromise = fn(...args);
+        const timeoutPromise = new Promise((_, reject) => {
+            setTimeout(() => {
+                reject('Time Limit Exceeded')
+            }, t);
         })
+        return Promise.race([originalFnPromise, timeoutPromise]);
+        
+        // return new Promise((resolve, reject) => {
+        //     const id = setTimeout(() => reject("Time Limit Exceeded"), t)
+        //     fn(...args)
+        //         .then(res => resolve(res))
+        //         .catch(err => reject(err))
+        //         .finally(() => clearTimeout(id))
+        // })
     }
 };
 
