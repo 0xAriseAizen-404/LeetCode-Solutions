@@ -22,13 +22,12 @@ class Solution {
             char x = s2.charAt(right);
             hMap2.put(x, hMap2.getOrDefault(x, 0) + 1);
 
-            char y = s2.charAt(right - s1.length());
+            char y = s2.charAt(right - s1.length()); // it is a left pointer
             if (hMap2.get(y) == 1) {
                 hMap2.remove(y);
             } else {
                 hMap2.put(y, hMap2.get(y) - 1);
             }
-
             // Check if the current window is a permutation of s1
             if (hMap1.equals(hMap2)) {
                 return true;
