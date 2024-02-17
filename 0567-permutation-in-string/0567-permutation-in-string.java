@@ -24,12 +24,12 @@ class Solution {
 
             char y = s2.charAt(right - s1.length()); // it is a left pointer
             if (hMap2.get(y) == 1) {
-                hMap2.remove(y);
+                hMap2.remove(y); // see down comment
             } else {
                 hMap2.put(y, hMap2.get(y) - 1);
             }
             // Check if the current window is a permutation of s1
-            if (hMap1.equals(hMap2)) {
+            if (hMap1.equals(hMap2)) { // it checks based on keys thats why we have to remove it if it has 1 feq
                 return true;
             }
         }
