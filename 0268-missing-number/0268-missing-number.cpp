@@ -1,8 +1,15 @@
 class Solution {
-public:
-    int missingNumber(vector<int>& nums) {
-        int n = nums.size(),sum = n*(n+1)/2;
-        int summ = accumulate(nums.begin(),nums.end(),0);
-        return sum - summ;
+    public int missingNumber(int[] nums) {
+        int org_xor = 0;
+        int given_xor = 0;
+        for(int i=1;i<=nums.length;++i)
+            org_xor ^= i;
+        for(int x : nums)
+            given_xor ^= x;
+        return org_xor^given_xor;
+        
+        // int org_sum = (nums.length*(nums.length + 1)) / 2;
+        // int summ = Arrays.stream(nums).sum();
+        // return org_sum - summ;
     }
-};
+}
