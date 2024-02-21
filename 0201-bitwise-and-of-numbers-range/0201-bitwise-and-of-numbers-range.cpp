@@ -1,5 +1,6 @@
 class Solution {
-    public int rangeBitwiseAnd(int left, int right) {
+public:
+    int rangeBitwiseAnd(int left, int right) {
         int cnt = 0;
         while (left != right) {
             left >>= 1;
@@ -8,4 +9,4 @@ class Solution {
         }
         return (left << cnt);
     }
-}
+};
