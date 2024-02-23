@@ -16,7 +16,7 @@ class Solution {
             double totalHours = 0;
 
             for (int x : piles) {
-                totalHours += Math.ceil((double) x / mid);
+                totalHours += Math.ceil((double) x / (double)mid);
             }
 
             if (totalHours <= h) {
