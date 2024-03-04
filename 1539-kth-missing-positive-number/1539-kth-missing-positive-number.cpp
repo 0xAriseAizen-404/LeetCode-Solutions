@@ -9,6 +9,12 @@ public:
             if(missingNums < k) low = mid + 1;
             else high = mid - 1;
         }
+        // formula:
+        // arr[high] + more
+        // arr[high] + k - missingNums;
+        // arr[high] + k - (arr[high] - (high + 1));
+        // high + 1 + k;
+        // low = high + 1 -> where traversing stops in BSearch;
         return low + k;
     }
 };
