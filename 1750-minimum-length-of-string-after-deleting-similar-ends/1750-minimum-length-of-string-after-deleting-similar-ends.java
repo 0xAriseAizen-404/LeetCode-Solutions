@@ -1,23 +1,18 @@
 class Solution {
-public:
-    int minimumLength(string s) {
+    public int minimumLength(String s) {
         int left = 0;
         int right = s.length() - 1;
         
-        // Iterate until left pointer is less than right pointer and characters match
-        while (left < right && s[left] == s[right]) {
-            char current = s[left]; // Store the current character for comparison
-            // Move left pointer to the right until it points to a different character
-            while (left <= right && s[left] == current) {
+        while (left < right && s.charAt(left) == s.charAt(right)) {
+            char current = s.charAt(left);
+            while (left <= right && s.charAt(left) == current) {
                 left++;
             }
-            // Move right pointer to the left until it points to a different character
-            while (right >= left && s[right] == current) {
+            while (right >= left && s.charAt(right) == current) {
                 right--;
             }
         }
         
-        // Return the remaining length of the substring
         return right - left + 1;
     }
-};
+}
