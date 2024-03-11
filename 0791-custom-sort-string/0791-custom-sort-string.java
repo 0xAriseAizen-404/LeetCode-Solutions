@@ -1,19 +1,19 @@
 class Solution {
-public:
-    string customSortString(string order, string s) {
-        string res = "";
-        unordered_map<int, int> umap;
-        for(auto& it: s)
-            umap[it]++;
-        for(auto& it: order) {
-            if(umap.find(it) != umap.end()) {
-                res.append(umap[it], it);
-                umap.erase(it);
+    public String customSortString(String order, String s) {
+        StringBuilder result = new StringBuilder();
+        HashMap<Character, Integer> mp = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            mp.put(c, mp.getOrDefault(c, 0) + 1);
+        }
+        for (char c : order.toCharArray()) {
+            if (mp.containsKey(c)) {
+                result.append(String.valueOf(c).repeat(Math.max(0, mp.get(c))));
+                mp.remove(c);
             }
         }
-        for(auto& it: umap)
-            // append(times, value);
-            res.append(it.second, it.first);
-        return res;
+        for (char c : mp.keySet()) {
+            result.append(String.valueOf(c).repeat(Math.max(0, mp.get(c))));
+        }
+        return result.toString();
     }
-};
+}
