@@ -1,25 +1,24 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
 class Solution {
-    public ListNode deleteMiddle(ListNode head) {
-        if(head.next==null) return null;
-        ListNode slow = head, fast = head, prev = head;
-        while(fast!=null && fast.next!=null) {
+public:
+    ListNode* deleteMiddle(ListNode* head) {
+        if(head->next==NULL) return NULL;
+        ListNode *slow = head, *fast = head, *prev = head;
+        while(fast!=NULL && fast->next!=NULL) {
             prev = slow;
-            slow = slow.next;
-            fast = fast.next.next;
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        prev.next = slow.next;
-        // slow.val = slow.next.val;
-        // slow.next = slow.next.next;
+        prev->next = slow->next;
         return head;
     }
-}
+};
