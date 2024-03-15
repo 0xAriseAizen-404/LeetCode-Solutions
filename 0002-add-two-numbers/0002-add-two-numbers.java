@@ -9,57 +9,37 @@
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode head = new ListNode(0);
-        ListNode temp = head;
-        int summ = 0;
+    public ListNode addTwoNumbers(ListNode head1, ListNode head2) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
         int carry = 0;
-        while(l1!=null && l2!=null) {
-            summ = l1.val + l2.val;
-            if(carry != 0) {
-                summ += carry;
-                carry = 0;
+
+        // Traverse both linked lists
+        while (head1 != null || head2 != null) {
+            int sum = carry;
+
+            // Add the values of the current nodes, if they exist
+            if (head1 != null) {
+                sum += head1.val;
+                head1 = head1.next;
             }
-            if(summ >= 10) {
-                carry = summ / 10;
-                summ = summ % 10;
+            if (head2 != null) {
+                sum += head2.val;
+                head2 = head2.next;
             }
-            temp.next = new ListNode(summ);
-            temp = temp.next;
-            l1 = l1.next;
-            l2 = l2.next;
+
+            // Update the carry and create a new node with the sum % 10
+            carry = sum / 10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
         }
-        while(l1 != null) {
-            summ = l1.val;
-            if(carry != 0) {
-                summ += carry;
-                carry = 0;
-            }
-            if(summ >= 10) {
-                carry = summ / 10;
-                summ = summ % 10;
-            }
-            temp.next = new ListNode(summ);
-            temp = temp.next;
-            l1 = l1.next;
+
+        // If there is a remaining carry, create a new node for it
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
         }
-        while(l2 != null) {
-            summ = l2.val;
-            if(carry != 0) {
-                summ += carry;
-                carry = 0;
-            }
-            if(summ >= 10) {
-                carry = summ / 10;
-                summ = summ % 10;
-            }
-            temp.next = new ListNode(summ);
-            temp = temp.next;
-            l2 = l2.next;
-        }
-        if(carry != 0) {
-            temp.next = new ListNode(carry);
-        }
-        return head.next;
+
+        // Return the head of the result linked list
+        return dummy.next;
     }
 }
