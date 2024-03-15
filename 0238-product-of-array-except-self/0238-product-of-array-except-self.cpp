@@ -1,19 +1,18 @@
 class Solution {
-    public int[] productExceptSelf(int[] arr) {
-        int[] res = new int[arr.length];
-        int n = arr.length;
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> ans(n);
         int prefix = 1;
-        //left pass
-        for(int i=0;i<n;++i){
-            res[i] = prefix;
-            prefix *= arr[i];
-        }
         int postfix = 1;
-        //right pass
-        for (int i = n - 1; i >= 0; --i) {
-            res[i] *= postfix;
-            postfix *= arr[i];
+        for(int i=0; i<n; ++i) {
+            ans[i] = prefix;
+            prefix *= nums[i];
         }
-        return res;
+        for(int i=n-1; i>=0; --i) {
+            ans[i] *= postfix;
+            postfix *= nums[i];
+        }
+        return ans;
     }
-}
+};
