@@ -1,59 +1,86 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
 class Solution {
-    public ListNode sortList(ListNode head) {
-        if (head == null || head.next == null) {
+public:
+
+    ListNode* findMid(ListNode* head){
+        ListNode* slow =head;
+        ListNode* fast =head->next;
+
+        while(fast != NULL && fast->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
+
+    ListNode* merge(ListNode* left, ListNode* right){
+
+        if(left == NULL)
+        return right;
+
+        if(right == NULL)
+        return left;
+
+        ListNode* ans = new ListNode(-1);
+        ListNode* temp = ans;
+
+        while(left != NULL && right != NULL){
+
+            if(left->val < right->val){
+                temp->next = left;
+                temp = left;
+                left = left->next;
+            }
+            else{
+                temp->next = right;
+                temp = right;
+                right = right->next;
+            }
+        }
+
+        while(left != NULL){
+                temp->next = left;
+                temp = left;
+                left = left->next;
+        }
+
+        while(right != NULL){
+                temp->next = right;
+                temp = right;
+                right = right->next;
+        }
+
+        ans = ans->next;
+        return ans;
+
+    }
+
+    ListNode* sortList(ListNode* head) {
+        if(head==NULL || head->next == NULL){
             return head;
         }
+    ListNode* mid = findMid(head);
+    ListNode* left = head;
+    ListNode* right = mid->next;
+    mid->next = NULL;
 
-        // Split the list into two halves
-        ListNode slow = head;
-        ListNode fast = head.next;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
+    //sort two half ll recursively
+    left = sortList(left);
+    right =sortList(right);
 
-        ListNode secondHalf = slow.next;
-        slow.next = null;
+    // merge them
+    ListNode* result = merge(left,right);
 
-        // Sort the two halves recursively
-        ListNode l1 = sortList(head);
-        ListNode l2 = sortList(secondHalf);
+    return result;
 
-        // Merge the sorted halves
-        return merge(l1, l2);
     }
-
-    private ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode();
-        ListNode curr = dummy;
-
-        while (l1 != null && l2 != null) {
-            if (l1.val < l2.val) {
-                curr.next = l1;
-                l1 = l1.next;
-            } else {
-                curr.next = l2;
-                l2 = l2.next;
-            }
-            curr = curr.next;
-        }
-
-        if (l1 != null) {
-            curr.next = l1;
-        } else {
-            curr.next = l2;
-        }
-
-        return dummy.next;
-    }
-}
+};
