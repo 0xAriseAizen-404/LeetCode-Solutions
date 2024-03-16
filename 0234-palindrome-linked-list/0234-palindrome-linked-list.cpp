@@ -1,62 +1,49 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
 class Solution {
-    public boolean isPalindrome(ListNode head) 
-    {
-        if (head == null || head.next == null) {
-            return true; 
+public:
+    bool isPalindrome(ListNode* head) {
+        // Steps to follow:
+        // 1_) Find the middle element
+        ListNode *slow = head, *fast = head;
+        while(fast!=NULL && fast->next !=NULL){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        ListNode slow = head, fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        // 2_) if the no of nodes are odd then move slow to one point
+        if(fast != NULL && fast->next == NULL){
+            slow = slow->next;
         }
-        ListNode secondHalf = reverse(slow);
-        
-        ListNode firstHalf = head;
-        while (secondHalf != null) {
-            if (firstHalf.val != secondHalf.val) {
-                return false; 
+        //3_) Reverse the end half
+        ListNode *prev = NULL;
+        ListNode *temp = NULL;
+        while(slow != NULL && slow->next != NULL){
+            temp = slow->next;
+            slow->next = prev;
+            prev = slow;
+            slow = temp;
+        }
+        if(slow != NULL){
+            slow->next = prev;
+        }
+        //4_) Compare the start half and end half if found any inequality then return false otherwise return true.
+        fast = head;
+        while(slow && fast){
+            if(slow->val != fast->val){
+                return false;
             }
-            firstHalf = firstHalf.next;
-            secondHalf = secondHalf.next;
+            slow = slow->next;
+            fast = fast->next;
         }
-        
-        return true; 
+        return true;
+
     }
-    private ListNode reverse(ListNode head) {
-        ListNode prev = null, current = head, nextNode;
-        while (current != null) {
-            nextNode = current.next;
-            current.next = prev;
-            prev = current;
-            current = nextNode;
-        }
-        return prev;
-    }
-    // public boolean isPalindrome(ListNode head) {
-    //     if(head==null || head.next==null) return true;
-    //     ListNode r_head = null;
-    //     ListNode ptr = head;
-    //     while(ptr!=null) {
-    //         ListNode temp = new ListNode(ptr.val);
-    //         temp.next = r_head;
-    //         r_head = temp;
-    //         ptr = ptr.next;
-    //     }
-    //     while(head!=null && r_head!=null) {
-    //         if(head.val != r_head.val) return false;
-    //         head = head.next;
-    //         r_head = r_head.next;
-    //     }
-    //     return true;
-    // }
-}
+};
