@@ -15,7 +15,7 @@ class Solution {
     }
 
     private static ListNode getTail(ListNode temp, int k) {
-        for (int i = 0; temp!=null & i < k-1; ++i)
+        for (int i = 0; temp!=null & i<k-1; ++i)
             temp = temp.next;
         return temp;
     }
