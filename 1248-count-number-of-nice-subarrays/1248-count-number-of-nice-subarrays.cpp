@@ -1,20 +1,16 @@
-import java.util.HashMap;
-
 class Solution {
-    public int numberOfSubarrays(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int oddCount = 0;
-        int resCount = 0;
-        for (int x : nums) {
-            if ((x & 1) == 1)
-                oddCount++;
-            if (oddCount == k)
-                resCount++;
-            if (map.containsKey(oddCount - k)) {
-                resCount += map.get(oddCount - k);
+public:
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        int sum = 0, count = 0;
+        map <int, int> mp;
+        mp[0] = 1;
+        for(int i = 0; i < nums.size(); i++) {
+            sum += nums[i] % 2;
+            if(mp.find(sum - k) != mp.end()) {
+                count+=mp[sum-k];
             }
-            map.put(oddCount, map.getOrDefault(oddCount, 0) + 1);
+            mp[sum]++;
         }
-        return resCount;
+        return count;
     }
-}
+};
