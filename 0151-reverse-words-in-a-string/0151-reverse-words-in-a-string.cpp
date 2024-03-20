@@ -1,17 +1,30 @@
+// class Solution {
+//     public String reverseWords(String s) {
+//        String words[]=s.trim().split(" +");
+//         Collections.reverse(Arrays.asList(words));
+//         return String.join(" ",words);
+//     }
+// }
+
 class Solution {
-public:
-    string reverseWords(string s) {
-        stringstream ss(s);
-        string word;
-        vector<string> parts;
-        while (ss >> word) {
-            parts.push_back(word);
+    public String reverseWords(String s) {
+        String[] parts = s.split(" ");
+        int left = 0;
+        int right = parts.length - 1;
+        while (left < right) {
+            // Swap the elements at left and right indices
+            String temp = parts[left];
+            parts[left] = parts[right];
+            parts[right] = temp;
+            // Move the indices toward the center
+            left++;
+            right--;
         }
-        reverse(parts.begin(), parts.end());
-        string res;
-        for (const string& x : parts) {
-            res += x + " ";
+        StringBuilder sb = new StringBuilder();
+        for(String x : parts) {
+            if(!x.equals("")) sb.append(x+" ");
         }
-        return res.empty() ? "" : res.substr(0, res.size() - 1); // Remove the extra space at the end
+        String x = new String(sb);
+        return x.stripTrailing();
     }
-};
+}
