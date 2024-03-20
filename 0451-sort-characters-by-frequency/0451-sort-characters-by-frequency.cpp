@@ -1,18 +1,17 @@
 class Solution {
-public:
-    // time/space: O(n)/O(1)
-    string frequencySort(string s) {
-        // count the frequency for each character
-        unordered_map<char, int> char2freq;
-        for (auto& c : s) char2freq[c]++;
-        // sort the frequency in the non-decreasing order
-        map<int, vector<char>, greater<int>> freq2chars;
-        for (auto& [c, f] : char2freq) freq2chars[f].push_back(c);
-        // generate the sorted string
-        string result = "";
-        for (auto& [f, chars] : freq2chars) {
-            for (auto& c : chars) result.append(f, c);
+    public String frequencySort(String s) {
+        HashMap<Character, Integer> hMap = new HashMap<>();
+        for (char x : s.toCharArray()) {
+            hMap.put(x, hMap.getOrDefault(x, 0) + 1);
         }
-        return result;
+        List<Map.Entry<Character, Integer>> list = new ArrayList<>(hMap.entrySet());
+        list.sort((a, b) -> b.getValue().compareTo(a.getValue()));
+        StringBuilder sb = new StringBuilder();
+        for (Map.Entry<Character, Integer> entry : list) {
+            for (int i = 0; i < entry.getValue(); i++) {
+                sb.append(entry.getKey());
+            }
+        }
+        return sb.toString();
     }
-};
+}
