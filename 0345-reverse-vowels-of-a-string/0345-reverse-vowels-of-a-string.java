@@ -2,7 +2,7 @@ class Solution {
     public String reverseVowels(String s) {
         int left = 0;
         int right = s.length() - 1;
-        char[] ch = s.toCharArray(); // initialize ch with the characters of s
+        char[] ch = s.toCharArray();
         while (left < right) {
             if (isVowel(ch[left])==true  &&  true== isVowel(ch[right])) {
                 char temp = ch[left];
