@@ -10,25 +10,52 @@
  */
 class Solution {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-        ListNode temp = list2;
-        while(temp!=null && temp.next != null)
-            temp = temp.next;
-        ListNode tailL = temp;
-        
-        
-        ListNode deletePrev = list1;
-        for(int i=0; deletePrev!=null && i<a-1; ++i)
-            deletePrev = deletePrev.next;
-        ListNode deleteNext = deletePrev.next;
-        for(int i=0; deleteNext!=null && i<(b-a)+1; ++i)
-            deleteNext = deleteNext.next;
-        if(list2 == null) {
-            deletePrev.next = deleteNext;
-            return list1;
-        }
-        deletePrev.next = list2;
-        tailL.next = deleteNext;
-        return list1;
+         ListNode temp = list2;
+ while (temp != null && temp.next != null) {
+     temp = temp.next;
+ }
+ ListNode tailL = temp;
+
+ ListNode deletePrev = list1;
+ for (int i = 0; deletePrev != null && i < a - 1; ++i) {
+     deletePrev = deletePrev.next;
+ }
+
+ if (deletePrev == null || deletePrev.next == null) {
+     return list1;
+ }
+
+ ListNode deleteNext = deletePrev.next;
+ for (int i = 0; deleteNext != null && i < (b - a) + 1; ++i) {
+     deleteNext = deleteNext.next;
+ }
+
+ if (deleteNext == null) {
+     return list1;
+ }
+
+ deletePrev.next = list2;
+ tailL.next = deleteNext;
+
+ return list1;
+
+        // ListNode temp = list2;
+        // while(temp!=null && temp.next != null)
+        //     temp = temp.next;
+        // ListNode tailL = temp;
+        // ListNode deletePrev = list1;
+        // for(int i=0; deletePrev!=null && i<a-1; ++i)
+        //     deletePrev = deletePrev.next;
+        // ListNode deleteNext = deletePrev.next;
+        // for(int i=0; deleteNext!=null && i<(b-a)+1; ++i)
+        //     deleteNext = deleteNext.next;
+        // if(list2 == null) {
+        //     deletePrev.next = deleteNext;
+        //     return list1;
+        // }
+        // deletePrev.next = list2;
+        // tailL.next = deleteNext;
+        // return list1;
     }
     
 }
