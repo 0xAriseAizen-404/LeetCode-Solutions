@@ -22,5 +22,5 @@ class Solution {
             current = follow;
         }
         return prev;
-    }
+    }   
 }
