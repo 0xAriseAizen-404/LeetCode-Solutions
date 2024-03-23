@@ -14,9 +14,8 @@ class Solution {
       int i = k, j = k + 1;
       while (i < n && j < n) {
         if (arr[j] != 0) {
-          int temp = arr[i];
           arr[i] = arr[j];
-          arr[j] = temp;
+          arr[j] = 0;
           i++;
         }
         j++;
