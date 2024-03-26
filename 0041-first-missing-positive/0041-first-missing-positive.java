@@ -1,12 +1,12 @@
 class Solution {
-    public int firstMissingPositive(int[] nums) {
-        int n = nums.length;
-        HashMap<Integer, Boolean> hMap = new HashMap<>();
-        for (int ele : nums) hMap.put(ele, true);
-        for (int i = 1; i <= n; ++i) {
-            if (!hMap.containsKey(i)) // Corrected method name
+public:
+    int firstMissingPositive(vector<int>& nums) {
+        int n = nums.size();
+        unordered_map<int, int> umap;
+        for (auto& x: nums) umap[x]++;
+        for (int i=1; i<=n; ++i)
+            if (umap[i] == 0)
                 return i;
-        }
         return n + 1;
     }
-}
+};
