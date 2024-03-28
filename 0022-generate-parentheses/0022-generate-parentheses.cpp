@@ -1,10 +1,10 @@
 class Solution {
 public:
+    // this is my own thought process
     void helper(vector<string> &ans, string str, int opens, int closes) {
         if (opens == 0 || closes == 0) {
             for (int i=0; i<closes; ++i) str.push_back(')');
             ans.push_back(str);
-            cout<<str<<endl;
             return;
         }
         helper(ans, str+"(", opens-1, closes);
