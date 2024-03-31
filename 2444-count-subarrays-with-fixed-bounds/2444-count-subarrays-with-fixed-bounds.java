@@ -1,26 +1,25 @@
 class Solution {
-public:
-    long long countSubarrays(vector<int>& nums, int minK, int maxK) {
-        long long res = 0;
-        int bad_idx = -1, left_idx = -1, right_idx = -1;
+    public long countSubarrays(int[] nums, int minK, int maxK) {
+        long res = 0;
+        int badIdx = -1, leftIdx = -1, rightIdx = -1;
 
-        for (int i = 0; i < nums.size(); ++i) {
+        for (int i = 0; i < nums.length; ++i) {
             if (!(minK <= nums[i] && nums[i] <= maxK)) {
-                bad_idx = i;
+                badIdx = i;
             }
 
             if (nums[i] == minK) {
-                left_idx = i;
+                leftIdx = i;
             }
 
             if (nums[i] == maxK) {
-                right_idx = i;
+                rightIdx = i;
             }
 
-            res += max(0, min(left_idx, right_idx) - bad_idx);
+            res += Math.max(0, Math.min(leftIdx, rightIdx) - badIdx);
         }
 
         return res;
     }
-};
+}
 
