@@ -1,17 +1,16 @@
 class Solution {
-public:
-    int maxDepth(string s) {
+    public int maxDepth(String s) {
         int count = 0;
-        int max_num = 0;
-        for (char c : s) {
+        int maxNum = 0;
+        for (char c : s.toCharArray()) {
             if (c == '(') {
                 count++;
-                if (max_num < count)
-                    max_num = count;
+                if (maxNum < count)
+                    maxNum = count;
             } else if (c == ')') {
                 count--;
             }
         }
-        return max_num;
+        return maxNum;
     }
-};
+}
