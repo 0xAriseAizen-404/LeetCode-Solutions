@@ -6,6 +6,7 @@
 //     }
 // }
 
+
 class Solution {
     public int tribonacci(int n) {
         if(n==0){
@@ -24,6 +25,7 @@ class Solution {
         return curr;
     }
 }
+
 
 // class Solution {
 //     public int tribonacci(int n) {
