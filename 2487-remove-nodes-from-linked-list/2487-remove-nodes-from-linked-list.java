@@ -1,35 +1,46 @@
 /**
  * Definition for singly-linked list.
- * struct ListNode {
+ * public class ListNode {
  *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
  */
 class Solution {
-public:
-    ListNode* removeNodes(ListNode* head) {
-        ListNode* cur = head;
-        stack<ListNode*> stack;
-        
-        while (cur != nullptr) {
-            while (!stack.empty() && stack.top()->val < cur->val) {
-                stack.pop();
+    public ListNode removeNodes(ListNode head) {
+        if(head.next == null){
+            return head;
+        }
+        ListNode prevNode = head;
+        ListNode currentNode = head.next;
+
+        while(currentNode != null){
+            ListNode nextNode = currentNode.next;
+            currentNode.next = prevNode;
+            prevNode = currentNode;
+            currentNode = nextNode;
+        }
+        head.next = null;
+        head = prevNode;
+
+        prevNode = head;
+        currentNode = head.next;
+        while(currentNode != null){
+            if(currentNode.val < prevNode.val){
+                currentNode = currentNode.next;
             }
-            stack.push(cur);
-            cur = cur->next;
+            else{
+                ListNode nextNode = currentNode.next;
+                currentNode.next = prevNode;
+                prevNode = currentNode;
+                currentNode = nextNode;
+            }
+            
         }
-        
-        ListNode* nxt = nullptr;
-        while (!stack.empty()) {
-            cur = stack.top();
-            stack.pop();
-            cur->next = nxt;
-            nxt = cur;
-        }
-        
-        return cur;
+        head.next = null;
+        head = prevNode;
+        return head;
     }
-};
+}
