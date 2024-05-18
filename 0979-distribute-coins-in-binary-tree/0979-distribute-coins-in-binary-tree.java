@@ -19,7 +19,7 @@ class Solution
     public int distributeCoins(TreeNode root)
     {
         helper(root);//helps us in finding the minimum number of moves to be balanced 
-        return moves;//returning
+        return moves;
     }
     public int helper(TreeNode root)
     {//Postorder traversal, we know about the child situation first and then the parent 
