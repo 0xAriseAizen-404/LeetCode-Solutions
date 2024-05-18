@@ -1,41 +1,25 @@
 class Solution {
 public:
-    int majorityElement(vector<int>& a) {
-        // int cnt = 0;
-        // int ele = a[0];
-        // for(int i=0;i<a.size();++i){
-        //     if(ele == a[i]) cnt++;
-        //     else cnt--;
-        //     if(cnt==0) {
-        //         cnt = 0;
-        //         ele = a[i+1];
-        //     }
-        // }
-        // return ele;
+    int majorityElement(vector<int>& nums) {
+        ios_base :: sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
         
-        int count=0;
-        int ele;
-        int size = a.size();
-        for(int i=0;i<size;i++){
-            if(count==0){
-                count=1;
-                ele=a[i];
+        int n = nums.size();
+        int majority = nums[0];
+        int count = 1;
+        for(int i =1; i<n; ++i){
+            if(nums[i]==majority){
+                count +=1;
             }
-            else if(ele==a[i]){
-                count++;
-            }
-            else {
-                count--;
+            else{
+                count -=1;
+                if(count==0){
+                    majority = nums[i];
+                    count =1;
+                }
             }
         }
-        count=0;
-        for(int i=0;i<size;i++)
-        {
-            if(a[i]==ele) count++;
-        }
-        if(count>size/2){ 
-            return ele; 
-        }
-        return -1;
+        return majority;
     }
 };
