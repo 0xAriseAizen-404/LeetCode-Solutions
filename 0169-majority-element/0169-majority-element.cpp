@@ -20,6 +20,6 @@ public:
                 }
             }
         }
-        return majority;
+        return majority; // always exists in the array no need to check with count >= n/2
     }
 };
