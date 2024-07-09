@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0443-string-compression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0443-string-compression) |
 | [0908-middle-of-the-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Binary Search
 |  |
@@ -208,4 +209,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0049-group-anagrams) |
+| [0443-string-compression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0443-string-compression) |
 <!---LeetCode Topics End-->
