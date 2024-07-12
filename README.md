@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 ## Heap (Priority Queue)
 |  |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [1720-crawler-log-folder](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Simulation
 |  |
 | ------- |
@@ -221,5 +223,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0443-string-compression) |
 | [1720-crawler-log-folder](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 <!---LeetCode Topics End-->
