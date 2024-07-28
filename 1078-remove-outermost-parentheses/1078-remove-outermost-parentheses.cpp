@@ -1,26 +1,52 @@
+// class Solution {
+// public:
+//     string removeOuterParentheses(string S) {
+//         string result;
+//         int openCount = 0;
+
+//         for (char c : S) {
+//             if (c == '(') {
+//                 if (openCount > 0) {
+//                     result += c;
+//                 }
+//                 openCount++;
+//             } else {
+//                 openCount--;
+//                 if (openCount > 0) {
+//                     result += c;
+//                 }
+//             }
+//         }
+
+//         return result;
+//     }
+// };
+
+
 class Solution {
 public:
-    string removeOuterParentheses(string S) {
-        string result;
-        int openCount = 0;
-
-        for (char c : S) {
-            if (c == '(') {
-                if (openCount > 0) {
-                    result += c;
+    string removeOuterParentheses(string paranthesis) {
+        stack<char> st;
+        string result = "";
+        
+        for (char x : paranthesis) {
+            if (x == '(') {
+                if (!st.empty()) {
+                    result += x;
                 }
-                openCount++;
+                st.push(x);
             } else {
-                openCount--;
-                if (openCount > 0) {
-                    result += c;
+                st.pop();
+                if (!st.empty()) {
+                    result += x;
                 }
             }
         }
-
+        
         return result;
     }
 };
+
 
 
 // class Solution {
