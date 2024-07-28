@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0443-string-compression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0443-string-compression) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [0812-rotate-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1720-crawler-log-folder](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -308,4 +309,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
