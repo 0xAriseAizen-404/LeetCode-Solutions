@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1293-three-consecutive-odds) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
+| [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 ## Binary Indexed Tree
 |  |
 | ------- |
