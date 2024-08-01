@@ -1,19 +1,20 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        unordered_map<char, int> uMap;
-        int left = 0;
-        int right = 0;
-        int maxFreq = 0;
+        int *chars = new int[26]();
+        
+        int left = 0, right = 0;
         int maxLength = 0;
-        for(right=0;right<s.size();right++) {
-            uMap[s[right]]++;
-            maxFreq = max(maxFreq, uMap[s[right]]);
-            if(right-left+1-maxFreq > k) {
-                uMap[s[left]]--;
+        int maxxFreq = 0;
+
+        while (right < s.size()) {
+            maxxFreq = max(maxxFreq, ++chars[s[right] - 'A']);
+            if ((right-left+1) - maxxFreq > k) {
+                chars[s[left] - 'A']--;
                 left++;
             }
             maxLength = max(maxLength, right-left+1);
+            right++;
         }
         return maxLength;
     }
