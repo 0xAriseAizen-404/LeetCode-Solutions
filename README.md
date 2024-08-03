@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0493-reverse-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0493-reverse-pairs) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0493-reverse-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 ## Shortest Path
 |  |
