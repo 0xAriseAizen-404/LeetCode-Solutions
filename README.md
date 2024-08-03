@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1293-three-consecutive-odds) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
