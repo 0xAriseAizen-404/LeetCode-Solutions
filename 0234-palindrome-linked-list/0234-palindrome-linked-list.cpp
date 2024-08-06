@@ -10,40 +10,37 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        // Steps to follow:
-        // 1_) Find the middle element
-        ListNode *slow = head, *fast = head;
-        while(fast!=NULL && fast->next !=NULL){
+    ListNode* reverseList(ListNode* head) {
+        if(head==NULL)
+            return head;
+        ListNode* curr = head;
+        ListNode* follow = NULL;
+        ListNode* prev = NULL;
+        while(curr != NULL) {
+            follow = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = follow;
+        }
+        return prev;
+    }
+    ListNode* getMiddle(ListNode* head) {
+        ListNode* slow = head, *fast = head;
+        while (fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
-        // 2_) if the no of nodes are odd then move slow to one point
-        if(fast != NULL && fast->next == NULL){
-            slow = slow->next;
-        }
-        //3_) Reverse the end half
-        ListNode *prev = NULL;
-        ListNode *temp = NULL;
-        while(slow != NULL && slow->next != NULL){
-            temp = slow->next;
-            slow->next = prev;
-            prev = slow;
-            slow = temp;
-        }
-        if(slow != NULL){
-            slow->next = prev;
-        }
-        //4_) Compare the start half and end half if found any inequality then return false otherwise return true.
-        fast = head;
-        while(slow && fast){
-            if(slow->val != fast->val){
-                return false;
-            }
-            slow = slow->next;
-            fast = fast->next;
+        return slow;
+    }
+    bool isPalindrome(ListNode* head) {
+        ListNode* head1 = head;
+        ListNode* head2 = getMiddle(head);
+        head2 = reverseList(head2);
+        while (head1 && head2) {
+            if (head1->val != head2->val) return false;
+            head1 = head1->next;
+            head2 = head2->next;
         }
         return true;
-
     }
 };
