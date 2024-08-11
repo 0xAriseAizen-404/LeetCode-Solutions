@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 ## Stack
 |  |
 | ------- |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 ## Backtracking
 |  |
