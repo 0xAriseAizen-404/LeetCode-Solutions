@@ -1,6 +1,6 @@
 class Solution {
 private:
-    void myHelper(vector<vector<int>> &res, vector<int> &nums, int ind, vector<int> help) {
+    void myHelper(vector<vector<int>> &res, vector<int> &nums, int ind, vector<int> &help) {
         if (ind == nums.size()) {
             res.push_back(help);
             return;
@@ -9,7 +9,7 @@ private:
         help.push_back(nums[ind]);
         myHelper(res, nums, ind + 1, help);
         // Backtrack
-        // help.pop_back();
+        help.pop_back(); // bcoz we used '&' in formal parameter its an address
     }
 
 public:
