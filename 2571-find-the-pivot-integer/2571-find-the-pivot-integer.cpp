@@ -1,32 +1,32 @@
-class Solution {
-public:
-    int pivotInteger(int n) {
-        int left = 1;
-        int right = n;
-        int leftSum = left;
-        int rightSum = right;
-        while (left <= right) {
-            if (leftSum == rightSum) {
-                if (left == right) {
-                    return left;
-                }
-                left++;
-                right--;
-                leftSum += left;
-                rightSum += right;
-            } else if (leftSum < rightSum) {
-                left++;
-                leftSum += left;
-            } else {
-                right--;
-                rightSum += right;
-            }
-        }
-        return -1;
-    }
-};
+// class Solution {
+// public:
+//     int pivotInteger(int n) {
+//         int left = 1;
+//         int right = n;
+//         int leftSum = left;
+//         int rightSum = right;
+//         while (left <= right) {
+//             if (leftSum == rightSum) {
+//                 if (left == right) {
+//                     return left;
+//                 }
+//                 left++;
+//                 right--;
+//                 leftSum += left;
+//                 rightSum += right;
+//             } else if (leftSum < rightSum) {
+//                 left++;
+//                 leftSum += left;
+//             } else {
+//                 right--;
+//                 rightSum += right;
+//             }
+//         }
+//         return -1;
+//     }
+// };
 
-/*
+
 class Solution {
 public:
     int pivotInteger(int n) {
@@ -43,5 +43,3 @@ public:
         return -1;
     }
 };
-
-*/
