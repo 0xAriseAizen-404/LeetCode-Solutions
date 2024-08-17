@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2107-find-unique-binary-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0647-palindromic-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Binary Indexed Tree
 |  |
 | ------- |
