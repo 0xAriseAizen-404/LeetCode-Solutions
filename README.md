@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1293-three-consecutive-odds) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [2571-find-the-pivot-integer](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2571-find-the-pivot-integer) |
 ## Ordered Set
 |  |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0647-palindromic-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
 | [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Binary Indexed Tree
 |  |
@@ -352,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
+| [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2571-find-the-pivot-integer](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2571-find-the-pivot-integer) |
@@ -431,4 +435,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
