@@ -19,22 +19,18 @@ public:
 */
 
 class Solution {
-private:
-    vector<int> myHelper(Node *root, vector<int> &res) {
-        if (root == nullptr) return res;
-        if ((root->children).empty()) {
-            res.push_back(root->val);
-            return res;
-        }
-        for (int i=0; i<(root->children).size(); ++i) {
-            myHelper(root->children[i], res);
-        }
-        res.push_back(root->val);
-        return res;
-    }
 public:
+
+    void postorderTraversal(Node* node, std::vector<int>& res)
+    {
+        if (!node) return;
+        for (auto n: node->children) postorderTraversal(n, res);
+        res.push_back(node->val);
+    }
+
     vector<int> postorder(Node* root) {
-        vector<int> res;
-        return myHelper(root, res);
+        std::vector<int> res;
+        postorderTraversal(root, res);
+        return res;
     }
 };
