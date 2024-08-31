@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1293-three-consecutive-odds) |
+| [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0264-ugly-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 ## Divide and Conquer
@@ -458,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## String Matching
