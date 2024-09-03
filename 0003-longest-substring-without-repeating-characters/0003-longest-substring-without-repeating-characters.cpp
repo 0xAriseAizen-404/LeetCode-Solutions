@@ -4,19 +4,23 @@ public:
         int left = 0;
         int right = 0;
         int maxLen = 0;
-        std::unordered_set<char> charSet;
-
+        // int *hash = new int[256];
+        // int hash[256];
+        // fill_n(hash, 256, -1);
+        // int hash[256] = { [0 ... 255] = -1 };
+        array<int, 256> hash;
+        hash.fill(-1);
         while (right < s.length()) {
-            if (charSet.find(s[right]) == charSet.end()) {
-                charSet.insert(s[right]);
-                maxLen = std::max(maxLen, right - left + 1);
-                right++;
+            int ind = (int)s[right];
+            if (hash[ind] == -1 || hash[ind] < left) {
+                hash[ind] = right;
             } else {
-                charSet.erase(s[left]);
-                left++;
+                left = hash[ind] + 1;
+                hash[ind] = right;
             }
+            maxLen = max(maxLen, right - left + 1);
+            right++;
         }
-
         return maxLen;
     }
 };
