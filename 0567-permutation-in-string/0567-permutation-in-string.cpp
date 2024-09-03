@@ -1,26 +1,29 @@
 class Solution {
 public:
+    bool check(vector<int> &v1,vector<int> &v2){
+        for(int i = 0; i < 26; i++){
+            if(v1[i]<v2[i])return false;
+        }
+        return true;
+    }
     bool checkInclusion(string s1, string s2) {
-        if (s1.size() > s2.size()) {
-            return false;
+        vector<int> v1(26,0),v2(26,0);
+        for(auto &i: s1){
+            v1[i-'a']++;
         }
-        
-        vector<int> s1Map(26), s2Map(26);
-        
-        for (int i = 0; i < s1.size(); i++) {
-            s1Map[s1[i] - 'a']++;
-            s2Map[s2[i] - 'a']++;
-        }
-        
-        for (int i = 0; i < s2.size() - s1.size(); i++) {
-            if (s1Map == s2Map) {
-                return true;
+        int i = 0, j = 0, n = s2.length();
+        while(j<n){
+            v2[s2[j]-'a']++;
+            if(j<s1.length()-1){
+                j++;
+            }else{
+                if(check(v1,v2)){
+                    return true;
+                }
+                v2[s2[i++]-'a']--;
+                j++;
             }
-            
-            s2Map[s2[i] - 'a']--;
-            s2Map[s2[i + s1.size()] - 'a']++;
         }
-        
-        return s1Map == s2Map;
+        return false;
     }
 };
