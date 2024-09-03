@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0999-regions-cut-by-slashes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1196-filling-bookcase-shelves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -468,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
+| [1034-subarrays-with-k-different-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Shortest Path
