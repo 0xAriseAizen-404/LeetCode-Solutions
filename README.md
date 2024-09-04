@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
+| [0906-walking-robot-simulation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0940-fruit-into-baskets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0940-fruit-into-baskets) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [0906-walking-robot-simulation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
 | [0940-fruit-into-baskets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [0592-fraction-addition-and-subtraction](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0906-walking-robot-simulation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [1803-average-waiting-time](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
