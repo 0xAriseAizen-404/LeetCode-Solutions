@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0071-simplify-path) |
 | [0155-min-stack](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0155-min-stack) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
