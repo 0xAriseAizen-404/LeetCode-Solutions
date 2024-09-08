@@ -34,9 +34,9 @@ public:
         int op2 = 0;
         for (string &x: tokens) {
             if (isOperator(x)) {
-                op1 = st.top(); st.pop();
                 op2 = st.top(); st.pop();
-                swap(op1, op2);
+                op1 = st.top(); st.pop();
+                // swap(op1, op2);
                 // cout << op1 << " " << op2 << " " << x << endl;
                 st.push(myHelper(op1, op2, x));
             } else {
