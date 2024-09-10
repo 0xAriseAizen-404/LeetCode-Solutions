@@ -22,7 +22,6 @@ public:
             ListNode* newNode = new ListNode(gcd(slow->val, fast->val));
             newNode->next = fast;
             slow->next = newNode;
-
             slow = fast;
             fast = fast->next;
         }
