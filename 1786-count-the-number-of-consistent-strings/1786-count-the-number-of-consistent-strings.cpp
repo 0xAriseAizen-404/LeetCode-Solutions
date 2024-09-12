@@ -1,18 +1,25 @@
-class Solution {
+static int speedup = []() {
+    ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    return 0;
+}();
+
+class Solution
+{
 public:
-    int countConsistentStrings(string allowed, vector<string>& words) {
-        int *freq = new int[26]();
-        for (char const &c: allowed) freq[tolower(c) - 'a']++;
+    int countConsistentStrings(string allowed, vector<string> &words)
+    {
+        unordered_set<char> u_set(allowed.begin(), allowed.end());
+
         int res = 0;
-        for (auto const &str: words) {
-            int8_t isOk = 1;
-            for (char const &c: str) {
-                if (freq[tolower(c) - 'a'] == 0) {
-                    isOk = 0;
+        for (string &w : words) {
+            bool local = true;
+            for (char ch : w) {
+                if (u_set.find(ch) == u_set.end()) {
+                    local = false;
                     break;
                 }
             }
-            if (isOk == 1) res += 1;
+            res += local;
         }
         return res;
     }
