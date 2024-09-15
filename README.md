@@ -382,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
+| [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
+| [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0264-ugly-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
+| [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
