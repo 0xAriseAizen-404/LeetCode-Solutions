@@ -1,24 +1,25 @@
 class Solution {
 public:
     vector<string> uncommonFromSentences(string s1, string s2) {
-        vector<string> res;
         unordered_map<string, int> umap;
+        vector<string> res;
 
-        stringstream ss1(s1), ss2(s2);
-        string word;
-
-        while (ss1 >> word) {
-            umap[word]++;
-        }
-
-        while (ss2 >> word) {
-            umap[word]++;
-        }
-
-        for (auto &x: umap) {
-            if (x.second == 1) {
-                res.push_back(x.first);
+        // Helper function to split string by spaces and update the map
+        auto processSentence = [&](string &s) {
+            int start = 0;
+            int end = 0;
+            while ((end = s.find(' ', start)) != string::npos) {
+                umap[s.substr(start, end - start)]++;
+                start = end + 1;
             }
+            umap[s.substr(start)]++; // last word
+        };
+
+        processSentence(s1);
+        processSentence(s2);
+
+        for (auto &x : umap) {
+            if (x.second == 1) res.push_back(x.first);
         }
 
         return res;
