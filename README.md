@@ -501,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0179-largest-number) |
+| [0214-shortest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
@@ -563,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 | [0812-rotate-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0812-rotate-string) |
 ## Strongly Connected Component
 |  |
@@ -592,4 +594,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
