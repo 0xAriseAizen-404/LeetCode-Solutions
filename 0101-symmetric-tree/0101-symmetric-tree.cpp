@@ -20,8 +20,6 @@ private:
     }
 public:
     bool isSymmetric(TreeNode* root) {
-        TreeNode* root1 = root;
-        TreeNode* root2 = root;
-        return myHelper(root1, root2);
+        return myHelper(root, root);
     }
 };
