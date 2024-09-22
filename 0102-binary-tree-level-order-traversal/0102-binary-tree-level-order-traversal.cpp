@@ -26,6 +26,7 @@ public:
                 if (temp->right) que.push(temp->right);
             }
             ans.push_back(v);
+            v.clear();
         }
         return ans;
     }
