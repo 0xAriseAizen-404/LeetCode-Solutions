@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0624-maximum-distance-in-arrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0739-daily-temperatures](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [0739-daily-temperatures](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1078-remove-outermost-parentheses) |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 ## String
 |  |
 | ------- |
