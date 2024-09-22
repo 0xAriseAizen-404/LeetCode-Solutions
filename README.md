@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0493-reverse-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0493-reverse-pairs) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
@@ -298,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0078-subsets) |
+| [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
