@@ -10,13 +10,10 @@
  * };
  */
 class Solution {
-private:
-    int myHelper(TreeNode* node) {
-        if (!node) return 0;
-        return 1 + myHelper(node->left) + myHelper(node->right);
-    }
 public:
     int countNodes(TreeNode* root) {
-        return myHelper(root);
+        if(root == NULL)
+            return 0;
+        return countNodes(root->left) + countNodes(root->right)+1;
     }
 };
