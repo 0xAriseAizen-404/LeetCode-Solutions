@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
