@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0179-largest-number) |
+| [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0268-missing-number) |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0231-power-of-two) |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Brainteaser
 |  |
@@ -696,4 +699,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
