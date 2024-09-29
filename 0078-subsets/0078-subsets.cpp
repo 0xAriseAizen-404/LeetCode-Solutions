@@ -1,22 +1,20 @@
 class Solution {
-private:
-    void myHelper(vector<vector<int>> &res, vector<int> &nums, int ind, vector<int> &help) {
-        if (ind == nums.size()) {
-            res.push_back(help);
-            return;
-        }
-        myHelper(res, nums, ind + 1, help);
-        help.push_back(nums[ind]);
-        myHelper(res, nums, ind + 1, help);
-        // Backtrack
-        help.pop_back(); // bcoz we used '&' in formal parameter its an address
-    }
-
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
+        int n = nums.size();
+        int noOfSubsets = 1 << n;
         vector<vector<int>> res;
-        vector<int> help;
-        myHelper(res, nums, 0, help);
+        for (int num = 0; num < noOfSubsets; ++num) {
+            vector<int> v;
+            for (int i = 0; i < n; ++i) {
+                if (num & (1 << i)) v.push_back(nums[i]);
+            }
+            res.push_back(v);
+        }
+        sort(res.begin(), res.end(), [](const vector<int> &a, const vector<int> &b) {
+            if (a.size() == b.size()) return a < b;
+            return a.size() < b.size();
+        });
         return res;
     }
 };
