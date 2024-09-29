@@ -1,8 +1,18 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        if(dividend == -2147483648 && divisor == -1) return 2147483647;
-        int div = dividend/divisor;
-        return div;
+        if (dividend == INT_MIN && divisor == -1) return INT_MAX;
+        bool sign = (dividend > 0) == (divisor > 0);
+        long n = labs(dividend), d = labs(divisor), quotient = 0;
+        while (n >= d) {
+            long temp = d, multiple = 1;
+            while (n >= (temp << 1)) {
+                temp <<= 1;
+                multiple <<= 1;
+            }
+            n -= temp;
+            quotient += multiple;
+        }
+        return sign ? quotient : -quotient;
     }
 };
