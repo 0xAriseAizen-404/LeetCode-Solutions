@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0231-power-of-two) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0069-sqrtx) |
