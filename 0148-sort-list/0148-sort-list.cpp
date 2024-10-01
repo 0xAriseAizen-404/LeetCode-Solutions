@@ -9,78 +9,41 @@
  * };
  */
 class Solution {
+private:
+    ListNode* getMidOfTheList(ListNode* head) {
+        ListNode* prev = nullptr;
+        while (head && head->next) {
+            prev = (prev == nullptr) ? head : prev->next;
+            head = head->next->next;
+        }
+        ListNode* mid = prev->next;
+        prev->next = nullptr;
+        return mid;
+    }
+    
+    ListNode* merge(ListNode* left, ListNode* right) {
+        ListNode* dummy = new ListNode(0);
+        ListNode* curr = dummy;
+        while (left && right) {
+            if (left->val < right->val) {
+                curr->next = left;
+                left = left->next;
+            } else {
+                curr->next = right;
+                right = right->next;
+            }
+            curr = curr->next;
+        }
+        curr->next = left ? left : right;
+        return dummy->next;
+    }
+
 public:
-
-    ListNode* findMid(ListNode* head){
-        ListNode* slow =head;
-        ListNode* fast =head->next;
-
-        while(fast != NULL && fast->next != NULL){
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        return slow;
-    }
-
-    ListNode* merge(ListNode* left, ListNode* right){
-
-        if(left == NULL)
-        return right;
-
-        if(right == NULL)
-        return left;
-
-        ListNode* ans = new ListNode(-1);
-        ListNode* temp = ans;
-
-        while(left != NULL && right != NULL){
-
-            if(left->val < right->val){
-                temp->next = left;
-                temp = left;
-                left = left->next;
-            }
-            else{
-                temp->next = right;
-                temp = right;
-                right = right->next;
-            }
-        }
-
-        while(left != NULL){
-                temp->next = left;
-                temp = left;
-                left = left->next;
-        }
-
-        while(right != NULL){
-                temp->next = right;
-                temp = right;
-                right = right->next;
-        }
-
-        ans = ans->next;
-        return ans;
-
-    }
-
     ListNode* sortList(ListNode* head) {
-        if(head==NULL || head->next == NULL){
-            return head;
-        }
-    ListNode* mid = findMid(head);
-    ListNode* left = head;
-    ListNode* right = mid->next;
-    mid->next = NULL;
-
-    //sort two half ll recursively
-    left = sortList(left);
-    right =sortList(right);
-
-    // merge them
-    ListNode* result = merge(left,right);
-
-    return result;
-
+        if (!head || !head->next) return head;
+        ListNode* mid = getMidOfTheList(head);
+        ListNode* leftList = sortList(head);
+        ListNode* rightList = sortList(mid);
+        return merge(leftList, rightList);
     }
 };
