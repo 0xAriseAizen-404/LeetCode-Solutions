@@ -9,22 +9,34 @@
  * };
  */
 class Solution {
-public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<int, vector<int>, greater<int>> pq;
-        for (auto &list: lists) {
-            while (list) {
-                pq.push(list->val);
-                list = list->next;
-            }
-        }
+private:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         ListNode* dummy = new ListNode(0);
         ListNode* curr = dummy;
-        while (!pq.empty()) {
-            curr->next = new ListNode(pq.top());
-            pq.pop();
+        while (list1 && list2) {
+            if (list1->val < list2->val) {
+                curr->next = list1;
+                list1 = list1->next;
+            } else {
+                curr->next = list2;
+                list2 = list2->next;
+            }
             curr = curr->next;
         }
+        curr->next = list1 ? list1 : list2;
         return dummy->next;
+    }
+    ListNode* mergeKListsHelper(vector<ListNode*> &lists, int start, int end) {
+        if (start == end) return lists[start];
+        if (start + 1 == end) return mergeTwoLists(lists[start], lists[end]);
+        int mid = start + ((end - start) >> 1);
+        ListNode* leftList = mergeKListsHelper(lists, start, mid);
+        ListNode* rightList = mergeKListsHelper(lists, mid + 1, end);
+        return mergeTwoLists(leftList, rightList);
+    }
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if (lists.size() == 0) return nullptr;
+        return mergeKListsHelper(lists, 0, lists.size() - 1);
     }
 };
