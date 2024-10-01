@@ -10,39 +10,25 @@
  */
 class Solution {
 public:
-    ListNode* addNode(ListNode* &x,int ele){
-        ListNode* neww = new ListNode(ele);
-        if (x==NULL) x = neww;
-        else{
-            ListNode *t=x;
-            while(t->next!=NULL) t = t->next;
-            t->next = neww;
-        }
-        return x;
-    }
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int left=0,sum;
-        ListNode *t,*head=NULL,*neww;
-        while(l1!=NULL && l2!=NULL){
-            sum = l1->val+l2->val+left;
-            left = sum/10;
-            head = addNode(head,sum%10);
-            l1 = l1->next;
-            l2 = l2->next;
+        int carry = 0;
+        ListNode* dummy = new ListNode(0);
+        ListNode* curr = dummy;
+        while (l1 || l2) {
+            int summ = carry;
+            if (l1) {
+                summ += l1->val;
+                l1 = l1->next;
+            }
+            if (l2) {
+                summ += l2->val;
+                l2 = l2->next;
+            }
+            curr->next = new ListNode(summ % 10);
+            curr = curr->next;
+            carry = summ / 10;
         }
-        while(l1!=NULL){
-            sum = l1->val + left;
-            left = sum/10;
-            head = addNode(head,sum%10);
-            l1 = l1->next;
-        }
-        while(l2!=NULL){
-            sum = l2->val + left;
-            left = sum/10;
-            head = addNode(head,sum%10);
-            l2 = l2->next;
-        }
-        if(left>0) head = addNode(head,left);
-        return head;
+        if (carry) curr->next = new ListNode(carry);
+        return dummy->next;
     }
 };
