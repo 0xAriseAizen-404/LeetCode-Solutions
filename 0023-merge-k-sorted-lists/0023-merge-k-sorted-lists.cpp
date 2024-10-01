@@ -30,8 +30,8 @@ private:
         if (start == end) return lists[start];
         if (start + 1 == end) return mergeTwoLists(lists[start], lists[end]);
         int mid = start + ((end - start) >> 1);
-        ListNode* leftList = mergeKListsHelper(lists, start, mid);
-        ListNode* rightList = mergeKListsHelper(lists, mid + 1, end);
+        ListNode* leftList = mergeKListsHelper(lists, start, mid - 1);
+        ListNode* rightList = mergeKListsHelper(lists, mid, end);
         return mergeTwoLists(leftList, rightList);
     }
 public:
