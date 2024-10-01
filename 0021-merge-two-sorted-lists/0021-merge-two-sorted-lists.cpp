@@ -11,10 +11,9 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* dummy = new ListNode(0); // Create a dummy node
-        ListNode* curr = dummy; // Current pointer to traverse
-        // Merge the two lists
-        while (list1 != nullptr && list2 != nullptr) {
+        ListNode* dummy = new ListNode(0);
+        ListNode* curr = dummy;
+        while (list1 && list2) {
             if (list1->val < list2->val) {
                 curr->next = list1;
                 list1 = list1->next;
@@ -24,12 +23,7 @@ public:
             }
             curr = curr->next;
         }
-        // Append the remaining nodes from the non-empty list
-        if (list1 != nullptr) {
-            curr->next = list1;
-        } else {
-            curr->next = list2;
-        }
-        return dummy->next; // Return the head of the merged list
+        curr->next = list1 ? list1 : list2;
+        return dummy->next;
     }
 };
