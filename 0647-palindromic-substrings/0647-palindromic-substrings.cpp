@@ -11,7 +11,6 @@ public:
     }
     int countSubstrings(string s) {
         if (s.empty()) return 0;
-
         int count = 0;
         for (int i=0; i<s.size(); ++i) {
             count += checkPalindrome(s, i, i);
