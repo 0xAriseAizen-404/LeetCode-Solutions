@@ -1,14 +1,12 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int low = 0;
-        int high = nums.size() - 1;
-        while(low <= high) {
-            int summ = nums[low] + nums[high];
-            if(summ == target) break;
-            else if(summ > target) high--;
-            else low++;
+        unordered_map<int, int> umap;
+        for (int i=0; i<nums.size(); ++i) {
+            if (umap.find(target - nums[i]) != umap.end()) 
+                return {umap[(target - nums[i])], i + 1};
+            umap[nums[i]] = i + 1;
         }
-        return {low+1, high+1};
+        return {-1, -1};
     }
 };
