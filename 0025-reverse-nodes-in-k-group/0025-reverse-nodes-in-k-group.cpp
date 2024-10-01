@@ -11,46 +11,36 @@
 class Solution {
 private:
     ListNode* reverseList(ListNode* head) {
-        if (head == nullptr) {
-            return nullptr;
-        }
-        ListNode* prev = nullptr;
-        ListNode* current = head;
-        while (current != nullptr) {
-            ListNode* follow = current->next;
-            current->next = prev;
-            prev = current;
-            current = follow;
+        ListNode *prev = nullptr;
+        while (head) {
+            ListNode* next = head->next;
+            head->next = prev;
+            prev = head;
+            head = next;
         }
         return prev;
     }
-
-    static ListNode* getTail(ListNode* temp, int k) {
-        for (int i = 0; temp != nullptr && i < k - 1; ++i) {
+    ListNode* getKthNode(ListNode* temp, int k) {
+        for (int i=0; temp != nullptr && i < k - 1; ++i) {
             temp = temp->next;
         }
         return temp;
     }
-
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* dummy = new ListNode(0);
         dummy->next = head;
-        ListNode* prevLast = dummy;
-
-        while (head != nullptr) {
-            ListNode* tail = getTail(head, k);
-            if (tail == nullptr) {
-                break;
-            }
-            ListNode* nextGroup = tail->next;
-            tail->next = nullptr;
-            prevLast->next = reverseList(head);
-            prevLast = head;
-            head->next = nextGroup;
-            head = nextGroup;
+        ListNode* curr = dummy;
+        while (head) {
+            ListNode* kthNode = getKthNode(head, k);
+            if (!kthNode) break;
+            ListNode* nextGroup = kthNode->next;
+            kthNode->next = nullptr;
+            curr->next = reverseList(head);
+            curr = head; // head is the tail after reverse for any group cause we using head even below look
+            curr->next = nextGroup;
+            head = nextGroup; // head is gonna be tail for reverse of this group
         }
-
         return dummy->next;
     }
 };
