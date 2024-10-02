@@ -1,22 +1,22 @@
 class Solution {
 public:
-    int ans = 0;
     int beautySum(string s) {
-
+        int ans = 0;
         for (int i = 0; i < s.length(); i++) {
-            map<char, int> mp;
+            vector<int> freq(26, 0);
+            int maxFreq = 0, minFreq = INT_MAX;
             for (int j = i; j < s.length(); j++) {
-                mp[s[j]]++;
-                int leastFrequent = INT_MAX;
-                int mostFrequent = INT_MIN;
-                for (auto it : mp) {
-                    leastFrequent = min(leastFrequent, it.second);
-                    mostFrequent = max(mostFrequent, it.second);
+                freq[s[j] - 'a']++;
+                maxFreq = max(maxFreq, freq[s[j] - 'a']);
+                minFreq = INT_MAX;
+                for (int k = 0; k < 26; k++) {
+                    if (freq[k] > 0) {
+                        minFreq = min(minFreq, freq[k]);
+                    }
                 }
-                ans += mostFrequent - leastFrequent;
+                ans += (maxFreq - minFreq);
             }
         }
-
         return ans;
     }
 };
