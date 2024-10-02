@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0859-design-circular-deque](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
@@ -537,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
+| [0232-implement-queue-using-stacks](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0739-daily-temperatures](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
@@ -729,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
