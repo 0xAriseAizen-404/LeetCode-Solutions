@@ -9,7 +9,8 @@ class Solution {
             stack.push(num);
         }
         while (!stack.isEmpty()) {
-            ngeMap.put(stack.pop(), -1);
+            if (!ngeMap.containsKey(stack.peek()))
+                ngeMap.put(stack.pop(), -1);
         }
         int[] res = new int[nums1.length];
         for (int i = 0; i < nums1.length; i++) {
