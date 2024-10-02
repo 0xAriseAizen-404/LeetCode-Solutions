@@ -3,21 +3,16 @@ private:
     void myHelper(vector<vector<int>> &res, vector<int> &help, vector<int> &candidates, int target, int currSum, int ind) {
         if (currSum == target) {
             res.push_back(help);
-            return; // Stop further recursion once target is reached
-        }
-        if (currSum > target || ind >= candidates.size()) {
             return;
         }
+        if (currSum > target || ind >= candidates.size()) return;
 
-        for (int i = ind; i < candidates.size(); ++i) {
-            if (i > ind && candidates[i] == candidates[i - 1]) {
-                continue; // Skip duplicates
-            }
-            
-            help.push_back(candidates[i]);
-            myHelper(res, help, candidates, target, currSum + candidates[i], i + 1);
-            help.pop_back();
-        }
+        help.push_back(candidates[ind]);
+        myHelper(res, help, candidates, target, currSum + candidates[ind], ind + 1);
+        help.pop_back();
+
+        while (ind + 1 < candidates.size() && candidates[ind] == candidates[ind + 1]) ind += 1;
+        myHelper(res, help, candidates, target, currSum, ind + 1);
     }
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
