@@ -1,8 +1,9 @@
+// own logic
+
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
         ios_base::sync_with_stdio(false); cin.tie(NULL);
-
         int n = cardPoints.size();
         int *beginPresum = new int[k+1]();
         int *endPresum = new int[k+1]();
