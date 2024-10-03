@@ -7,7 +7,7 @@ class Solution {
             if (s.charAt(i) == '(') st.push(i);
             else {
                 st.pop();
-                if (st.empty()) st.push(i);
+                if (st.isEmpty()) st.push(i);
                 else max_len = Math.max(max_len, i - st.peek());
             }
         }
