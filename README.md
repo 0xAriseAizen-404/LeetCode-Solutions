@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0179-largest-number) |
+| [0402-remove-k-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0624-maximum-distance-in-arrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0680-valid-palindrome-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
@@ -676,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
+| [0402-remove-k-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0443-string-compression) |
