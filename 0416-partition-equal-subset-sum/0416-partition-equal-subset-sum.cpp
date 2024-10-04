@@ -10,7 +10,6 @@ public:
             for (int j=target; j>=num; --j) {
                 if (dp[j - num]) {
                     dp[j] = true;
-                    // break;
                 }
             }
         }
