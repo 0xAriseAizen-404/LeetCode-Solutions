@@ -7,7 +7,10 @@ public:
         return res;
     }
     void backTrack(vector<vector<int>> &res, vector<int> &combination, int startInd, vector<int> &candidates, int target) {
-        if (target == 0) res.push_back(combination);
+        if (target == 0) {
+            res.push_back(combination);
+            return;
+        }
         if (target < 0) return;
         for (int i = startInd; i<candidates.size(); i++) {
             combination.push_back(candidates[i]);
