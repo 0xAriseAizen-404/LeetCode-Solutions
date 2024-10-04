@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0264-ugly-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
@@ -488,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
@@ -690,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0214-shortest-palindrome) |
@@ -801,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
@@ -809,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 ## Rolling Hash
 |  |
