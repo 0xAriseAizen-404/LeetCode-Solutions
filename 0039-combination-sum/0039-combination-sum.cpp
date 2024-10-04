@@ -1,26 +1,18 @@
 class Solution {
-private:
-    void myHelper(vector<vector<int>> &res, vector<int> &help, vector<int> &candidates, int target, int currSum, int ind) {
-        if (currSum == target) {
-            res.push_back(help);
-            return; // Stop further recursion once target is reached
-        }
-        if (currSum > target || ind == candidates.size()) {
-            return;
-        }
-        // Not take
-        myHelper(res, help, candidates, target, currSum, ind + 1);
-        // Take
-        help.push_back(candidates[ind]);
-        myHelper(res, help, candidates, target, currSum + candidates[ind], ind);
-        // Backtrack
-        help.pop_back();
-    }
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> res;
-        vector<int> help;
-        myHelper(res, help, candidates, target, 0, 0);
+        vector<int> combination;
+        backTrack(res, combination, 0, candidates, target);
         return res;
+    }
+    void backTrack(vector<vector<int>> &res, vector<int> &combination, int startInd, vector<int> &candidates, int target) {
+        if (target == 0) res.push_back(combination);
+        if (target < 0) return;
+        for (int i = startInd; i<candidates.size(); i++) {
+            combination.push_back(candidates[i]);
+            backTrack(res, combination, i, candidates, target - candidates[i]);
+            combination.pop_back();
+        }
     }
 };
