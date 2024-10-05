@@ -1,30 +1,33 @@
 class Solution {
 public:
-    static int checkPalindrome(string s, int left, int right) {
-        while (left >= 0 && right < s.size() && s[left] == s[right]) {
-            left--;
-            right++;
-        }
-        return right - left - 1;
-    }
-
     string longestPalindrome(string s) {
-        if (s.empty()) return "";
-        
+        int length = s.length();
+        bool dp[length][length];
+        memset(dp, 0, sizeof(dp));
+        int max_pal_length = 1;
+        for (int i = 0; i < length; i++){
+            dp[i][i] = true;
+        }
         int start = 0;
-        int end = 0;
-        
-        for (int i = 0; i < s.size(); ++i) {
-            int len1 = checkPalindrome(s, i, i);
-            int len2 = checkPalindrome(s, i, i + 1);
-            int len = max(len1, len2);
-            
-            if (len > end - start) {
-                start = i - (len - 1) / 2;
-                end = i + len / 2;
+        for (int j = 0; j < length - 1; j++){
+            if (s[j] == s[j + 1]){
+                dp[j][j + 1] = true;
+                start = j;
+                max_pal_length = 2;
             }
         }
-        
-        return s.substr(start, end - start + 1);
+        for (int k = 3; k <= length; ++k) {
+            for (int i = 0; i < length - k + 1; ++i) {
+                int j = i + k - 1;
+                if (dp[i + 1][j - 1] && s[i] == s[j]) {
+                    dp[i][j] = true;
+                    if (k > max_pal_length) {
+                        start = i;
+                        max_pal_length = k;
+                    }
+                }
+            }
+        }
+        return s.substr(start, max_pal_length);
     }
 };
