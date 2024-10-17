@@ -336,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0670-maximum-swap](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0670-maximum-swap](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0670-maximum-swap) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
