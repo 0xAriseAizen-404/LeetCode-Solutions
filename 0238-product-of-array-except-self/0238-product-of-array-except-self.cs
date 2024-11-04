@@ -1,17 +1,18 @@
 public class Solution {
     public int[] ProductExceptSelf(int[] nums) {
-        var list = new List<int> ();
-        int pre = 1;
-        foreach (int x in nums) {
-            list.Add(pre);
-            pre *= x;
+        var N = nums.Length;
+        var output = new int[nums.Length];
+        output[0] = 1;
+        for(var i = 1; i < N; i++)
+        {
+            output[i] = nums[i -1] * output[i-1];
         }
-
-        int post = 1;
-        for (int i=nums.Length - 1; i >= 0; --i) {
-            list[i] *= post;
-            post *= nums[i];
+        int R = 1;
+        for(var i = N - 1; i >= 0; i--)
+        {
+            output[i] = output[i] * R;
+            R = R * nums[i];
         }
-        return list.ToArray();
+        return output;
     }
 }
