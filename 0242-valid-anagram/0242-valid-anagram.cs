@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 public class Solution {
     public bool IsAnagram(string s, string t) {
-        var freq = new Dictionary<char, int>();
-        foreach (char x in s) {
-            if (freq.ContainsKey(x)) freq[x]++;
-            else freq[x] = 1;
+        if (s.Length != t.Length) return false;
+        int[] mapp = new int[26];
+        for (int i=0; i<s.Length; ++i) {
+            mapp[s[i] - 'a']++;
+            mapp[t[i] - 'a']--;
         }
-        foreach (char x in t) {
-            if (!freq.ContainsKey(x)) return false;
-            if (--freq[x] == 0) freq.Remove(x);
+        for (int i=0; i<26; ++i) {
+            if (mapp[i] != 0) return false;
         }
-        return freq.Count == 0;
+        return true;
     }
 }
