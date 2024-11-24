@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2107-find-unique-binary-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [3195-separate-black-and-white-balls](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3195-separate-black-and-white-balls) |
@@ -685,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
+| [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Math
 |  |
