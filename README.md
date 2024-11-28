@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -394,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 ## Divide and Conquer
 |  |
@@ -695,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Math
 |  |
 | ------- |
@@ -858,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## String Matching
 |  |
