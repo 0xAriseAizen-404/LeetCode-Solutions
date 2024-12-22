@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1972-rotating-the-box](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1923-sentence-similarity-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
+| [1972-rotating-the-box](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3195-separate-black-and-white-balls](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 ## Binary Search
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [1972-rotating-the-box](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
