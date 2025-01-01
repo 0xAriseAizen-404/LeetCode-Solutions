@@ -2,7 +2,6 @@ class Solution {
 private:
     int findOneCount(string s) {
         // return count(s.begin(), s.end(), '1');
-
         int cnt = 0;
         for (char x: s) cnt += (x == '1') ? 1 : 0;
         return cnt;
