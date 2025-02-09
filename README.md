@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2448-count-number-of-bad-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2190-count-common-words-with-one-occurrence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2448-count-number-of-bad-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -771,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
+| [2448-count-number-of-bad-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2571-find-the-pivot-integer](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2571-find-the-pivot-integer) |
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -901,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2448-count-number-of-bad-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
