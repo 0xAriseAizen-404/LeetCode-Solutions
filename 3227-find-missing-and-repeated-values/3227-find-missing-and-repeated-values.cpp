@@ -1,25 +1,26 @@
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int x = 1;
-        long long gridSum = 0, gridSqSum = 0;
-        long long perfectSum = 0, perfectSqSum = 0;
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                gridSum += grid[i][j];
-                gridSqSum += static_cast<long long>(grid[i][j] * grid[i][j]);
+        long long sum = 0, sqrSum = 0;
+        long long n = grid.size();
+        long long total = n * n;
 
-                perfectSum += x;
-                perfectSqSum += x * x;
-                x += 1;
+        for (int row = 0; row < n; ++row) {
+            for (int col = 0; col < n; ++col) {
+                sum += grid[row][col];
+                sqrSum += static_cast<long long>(grid[row][col]) * grid[row][col];
             }
         }
-        int sumDiff = gridSum - perfectSum;
-        int sqSumDiff = gridSqSum - perfectSqSum;
-        vector<int> res(2, 0);
-        res.at(0) = ((sqSumDiff / sumDiff) + sumDiff) / 2;
-        res.at(1) = ((sqSumDiff / sumDiff) - sumDiff) / 2;
-        return res;
+
+        long long expectedSum = total * (total + 1) / 2;
+        long long expectedSqrSum = total * (total + 1) * (2 * total + 1) / 6;
+
+        long long sumDiff = sum - expectedSum;       
+        long long sqrDiff = sqrSum - expectedSqrSum;
+
+        int repeated = (sqrDiff / sumDiff + sumDiff) / 2;
+        int missing = repeated - sumDiff;
+
+        return {repeated, missing};
     }
 };
