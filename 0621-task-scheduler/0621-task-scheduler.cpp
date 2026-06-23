@@ -1,18 +1,13 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        int len = tasks.size();
-        unordered_map<char, int> map;
+        int *hash = new int[26]();
         int maxFreq = 0;
-        int noOfMaxFreq = 0;
-        for(char c: tasks) {
-            map[c]++;
-            maxFreq = max(maxFreq, map[c]);
+        for (char &x: tasks) maxFreq = max(maxFreq, ++hash[x - 'A']);
+        int noOf_maxFreqs = 0;
+        for (int i=0; i<26; ++i) {
+            if (hash[i] == maxFreq) noOf_maxFreqs++;
         }
-        for(pair<int, int> x: map)
-            if(x.second == maxFreq)
-                noOfMaxFreq++;
-        int res = max(((n+1)*(maxFreq-1)+noOfMaxFreq), len);
-        return res;
+        return max(((1+n)*(maxFreq - 1)+noOf_maxFreqs), (int)tasks.size());
     }
 };
