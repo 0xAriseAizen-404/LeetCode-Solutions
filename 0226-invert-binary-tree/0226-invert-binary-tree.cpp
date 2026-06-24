@@ -19,3 +19,5 @@ public:
         return root;
     }
 };
+// TC: O(n)
+// SC: O(h)  // O(log n) balanced, O(n) skewed
