@@ -9,17 +9,41 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// class Solution {
+//     bool isMirror(TreeNode *node1, TreeNode *node2) {
+//         if (!node1 && !node2) return true;
+//         if (!node1 || !node2) return false;
+//         return node1->val == node2->val && 
+//                 isMirror(node1->left, node2->right) &&
+//                 isMirror(node1->right, node2->left);
+//     }
+// public:
+//     bool isSymmetric(TreeNode* root) {
+//         return isMirror(root->left, root->right);
+//     }
+// };
+// TC: O(n)
+// SC: O(h)
+
 class Solution {
-private:
-    bool myHelper(TreeNode* r1, TreeNode* r2) {
-        if (!r1 && !r2) return true;
-        if (!r1 || !r2) return false;
-        return (r1->val == r2->val && 
-               myHelper(r1->left, r2->right) &&
-               myHelper(r1->right, r2->left));
-    }
 public:
     bool isSymmetric(TreeNode* root) {
-        return myHelper(root, root);
+        queue<TreeNode *> que;
+        if (!root->left && !root->right) return true;
+        if (!root->left || !root->right) return false;
+        que.push(root->left);
+        que.push(root->right);
+        while (!que.empty()) {
+            TreeNode *node1 = que.front(); que.pop();
+            TreeNode *node2 = que.front(); que.pop();
+            if (!node1 && !node2) continue;
+            if (!node1 || !node2 || node1->val != node2->val) return false;
+            que.push(node1->left); que.push(node2->right);
+            que.push(node1->right); que.push(node2->left);
+        }
+        return true;
     }
 };
+// TC: O(n)
+// SC: O(w)  // O(n) worst case, where w is the maximum width of the tree
