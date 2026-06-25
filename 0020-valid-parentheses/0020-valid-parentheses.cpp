@@ -2,19 +2,20 @@ class Solution {
 public:
     bool isValid(string s) {
         stack<char> st;
-        
-        for (int i = 0; i < s.length(); i++) {
-            if (!st.empty() && st.top() == '(' && s[i] == ')') {
-                st.pop();
-            } else if (!st.empty() && st.top() == '{' && s[i] == '}') {
-                st.pop();
-            } else if (!st.empty() && st.top() == '[' && s[i] == ']') {
-                st.pop();
+        auto isOpeningOne = [](char x) {
+            return x == '(' || x == '[' || x == '{';
+        };
+        for (char x : s) {
+            if (isOpeningOne(x)) {
+                st.push(x);
             } else {
-                st.push(s[i]);
+                if (st.empty()) return false;
+                if (st.top() == '(' && x == ')') st.pop();
+                else if (st.top() == '[' && x == ']') st.pop();
+                else if (st.top() == '{' && x == '}') st.pop();
+                else return false;
             }
         }
-        
         return st.empty();
     }
 };
