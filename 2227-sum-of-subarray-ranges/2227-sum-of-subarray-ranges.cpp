@@ -1,51 +1,43 @@
 class Solution {
 public:
     long long subArrayRanges(vector<int>& nums) {
-        int n = nums.size();
+        int sz = nums.size();
+        vector<int> nse(sz, sz), nge(sz, sz);
+        vector<int> pse(sz, -1), pge(sz, -1);
+        stack<int> mis;
+        stack<int> mds;
 
-        vector<int> leftMin(n, 0), rightMin(n, 0);
-        vector<int> leftMax(n, 0), rightMax(n, 0);
-        stack<int> minStack;
-        stack<int> maxStack;
+        // nse + nge
+        for (int i=sz-1; i>=0; --i) {
+            while (!mis.empty() && nums[mis.top()] >= nums[i]) mis.pop();
+            nse[i] = mis.empty() ? sz : mis.top();
+            mis.push(i);
 
-        for(int i = 0; i < n; i++) {
-            while(!minStack.empty() && nums[minStack.top()] > nums[i])
-                minStack.pop();
-
-            leftMin[i] = minStack.empty() ? -1 : minStack.top();
-            minStack.push(i);
-
-            while(!maxStack.empty() && nums[maxStack.top()] < nums[i])
-                maxStack.pop();
-
-            leftMax[i] = maxStack.empty() ? -1: maxStack.top();
-            maxStack.push(i);
+            while (!mds.empty() && nums[mds.top()] <= nums[i]) mds.pop();
+            nge[i] = mds.empty() ? sz : mds.top();
+            mds.push(i);
         }
 
-        minStack = stack<int>();
-        maxStack = stack<int>();
+        while (!mis.empty()) mis.pop();
+        while (!mds.empty()) mds.pop();
 
-        for(int i = n-1; i >= 0; i--) {
-            while(!minStack.empty() && nums[minStack.top()] >= nums[i])
-                minStack.pop();
+        // pse + pge
+        for (int i=0; i<sz; ++i) {
+            while (!mis.empty() && nums[mis.top()] > nums[i]) mis.pop();
+            pse[i] = mis.empty() ? -1 : mis.top();
+            mis.push(i);
 
-            rightMin[i] = minStack.empty() ? n : minStack.top();
-            minStack.push(i);
-
-            while(!maxStack.empty() && nums[maxStack.top()] <= nums[i])
-                maxStack.pop();
-
-            rightMax[i] = maxStack.empty() ? n: maxStack.top();
-            maxStack.push(i);
+            while (!mds.empty() && nums[mds.top()] < nums[i]) mds.pop();
+            pge[i] = mds.empty() ? -1 : mds.top();
+            mds.push(i);
         }
 
-        long long sumOfMaxes = 0, sumOfMins = 0;
-
-        for(int i = 0; i < n; i++) {
-            sumOfMaxes += (long long)nums[i]*(i-leftMax[i])*(rightMax[i]-i);
-            sumOfMins += (long long)nums[i]*(i-leftMin[i])*(rightMin[i]-i);
+        long long ans = 0;
+        for (int i=0; i<sz; ++i) {
+            ans += 1LL * (nge[i] - i) * (i - pge[i]) * nums[i];
+            ans -= 1LL * (nse[i] - i) * (i - pse[i]) * nums[i];
+            // maxes - mins
         }
-
-        return sumOfMaxes - sumOfMins;
+        return ans;
     }
 };
