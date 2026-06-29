@@ -1,45 +1,39 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        string ans="";
-        for(char &c:num) {
-            while(ans.size() && ans.back()>c && k) {
+        string ans = "";
+        for (char &x: num) {
+            while (!ans.empty() && ans.back() > x && k) {
                 ans.pop_back();
-                k--;
+                k -= 1;
             }
-            if(ans.size() || c!='0') ans.push_back(c);
+            if (!ans.empty() || x!='0') ans.push_back(x);
         }
-        while(ans.size() && k--) {
-            ans.pop_back();
-        }
-        return (ans=="")?"0":ans;
+        while (!ans.empty() && k--) ans.pop_back();
+        return ans.empty() ? "0" : ans;
     }
 };
 
 // class Solution {
 // public:
 //     string removeKdigits(string num, int k) {
-//         string res = "";
-//         stack<int> st;
-//         for (int i = 0; i < num.size(); ++i) {
-//             while (!st.empty() && k > 0 && num[i] < num[st.top()]) {
-//                 k--;
-//                 st.pop();
+//         stack<char> mis;
+//         for (char &x: num) {
+//             while (!mis.empty() && mis.top() > x && k) {
+//                 mis.pop();
+//                 k -= 1;
 //             }
-//             st.push(i);
+//             if (!mis.empty() || x!='0') mis.push(x);
+//             // if it is Empty and the first char is '0' -> False || False -> Don't push
 //         }
-//         while (k > 0 && !st.empty()) {
-//             st.pop();
-//             k--;
+//         while (!mis.empty() && k--) mis.pop();
+
+//         string ans = "";
+//         while (!mis.empty()) {
+//             ans += mis.top();
+//             mis.pop();
 //         }
-//         if (st.empty()) return "0";
-//         while (!st.empty()) {
-//             res += num[st.top()];
-//             st.pop();
-//         }
-//         reverse(res.begin(), res.end());
-//         while (!res.empty() && res[0] == '0') res.erase(res.begin());
-//         if (res.empty()) return "0";
-//         return res;
+//         reverse(ans.begin(), ans.end());
+//         return ans.empty() ? "0" : ans;
 //     }
 // };
