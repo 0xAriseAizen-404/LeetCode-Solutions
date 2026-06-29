@@ -13,6 +13,7 @@ public:
         for (int i=sz-1; i>=0; --i) {
             int val = height[i];
             if (rightNGE.empty() || val > height[rightNGE.top()]) rightNGE.push(i); // '>' or '>=', No need to include duplicates, it works just fine.
+            // here why we are not poping, because below code, we are popping the nge when that Index comes, but what about the later indexes, those indexes has the nges in these popped elements, so we should not pop these nges, we should keep them, so that when those relevant indexes arive, we can use these nges.
         }
         int contained_water = 0;
         int leftPGE = height[0];
