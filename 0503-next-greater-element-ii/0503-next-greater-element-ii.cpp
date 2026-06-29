@@ -15,6 +15,8 @@ public:
         return ans;
     }
 };
+// TC: O(m + n)
+// SC: O(m)
 
 // BruteForce Solution
 // class Solution {
@@ -36,5 +38,5 @@ public:
 //         return ans;
 //     }
 // };
-// TC:
-// SC:
+// TC: O(m + n)
+// SC: O(m)
