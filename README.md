@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
@@ -703,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
@@ -1017,6 +1019,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
@@ -1074,6 +1077,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 ## Quickselect
