@@ -1,16 +1,20 @@
 class StockSpanner {
-    int ind = 0;
-    stack<pair<int, int>> st;
 public:
-    StockSpanner() { }
+    int ind = 0;
+    stack<pair<int, int>> data;
 
+    StockSpanner() {
+    }
+    
     int next(int price) {
-        while (!st.empty() && price >= st.top().first) st.pop();
-        int val = st.empty() ? ind + 1 : ind - st.top().second;
-        st.push({price, ind++});
-        return val;
+        while (!data.empty() && data.top().second <= price) data.pop();
+        // int span = data.empty() ? ind + 1 : ind - data.top().first;
+        int span = ind - (data.empty() ? -1 : data.top().first);
+        data.push({ind++, price});
+        return span;
     }
 };
+
 
 /**
  * Your StockSpanner object will be instantiated and called as such:
