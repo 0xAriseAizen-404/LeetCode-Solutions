@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
@@ -708,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0355-design-twitter](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0725-split-linked-list-in-parts](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
@@ -1022,6 +1024,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0729-my-calendar-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
@@ -1072,6 +1075,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 ## Quickselect
 |  |
 | ------- |
