@@ -1,20 +1,44 @@
+// HashMap + MonotonicStack Approach
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        stack<int> st; st.push(nums2.back());
-        unordered_map<int, int> umap;
-        umap[nums2.back()] = -1;
-        for (int i=nums2.size()-2; i>=0; --i) {
-            while (!st.empty() && st.top() <= nums2[i]) st.pop();
-            umap[nums2[i]] = st.empty() ? -1 : st.top();
-            st.push(nums2[i]);
+        map<int, int> mp;
+        stack<int> mds; // monotonic_decreasing_stack
+        int sz = nums2.size();
+        for (int i=sz-1; i>=0; --i) {
+            int val = nums2[i];
+            while (!mds.empty() && val >= mds.top()) mds.pop();
+            mp[val] = mds.empty() ? -1 : mds.top();
+            mds.push(val);
         }
-        vector<int> res;
-        for (const auto &x: nums1) {
-            if (umap.find(x) != umap.end()) {
-                res.push_back(umap[x]);
-            } else res.push_back(-1);
-        }
-        return res;
+        vector<int> ans;
+        for (int &x: nums1) ans.push_back(mp[x]);
+        return ans;
     }
 };
+// TC: O(m + n)
+// SC: O(m)
+
+// BruteForce Iterative Solution
+// class Solution {
+// public:
+//     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+//         vector<int> ans;
+//         for (int &x: nums1) {
+//             int ind = 0;
+//             bool flag = false;
+//             while (x != nums2[ind]) ind++;
+//             for (int k=ind+1; k<nums2.size(); ++k) {
+//                 if (nums2[k] > nums2[ind]) {
+//                     ans.push_back(nums2[k]);
+//                     flag = true;
+//                     break;
+//                 }
+//             }
+//             if (!flag) ans.push_back(-1);
+//         }
+//         return ans;
+//     }
+// };
+// TC: O(n * m)
+// SC: O(n)
