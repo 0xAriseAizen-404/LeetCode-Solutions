@@ -2,32 +2,39 @@ class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
         int n = nums.size();
-        vector<int> res(n, -1);
-        stack<int> st;
-        for (int i = 2 * n - 1; i >= 0; --i) {
-            while (!st.empty() && nums[i % n] >= st.top()) st.pop();
-            if (i < n) res[i] = st.empty() ? -1 : st.top();
-            st.push(nums[i % n]);
+        stack<int> mds; // monotonic_decreasing_stack
+        vector<int> ans(n, -1);
+        for(int itr=1; itr<=2; ++itr) {
+            for (int i=n-1; i>=0; --i) {
+                int val = nums[i];
+                while (!mds.empty() && val >= mds.top()) mds.pop();
+                ans[i] = mds.empty() ? -1 : mds.top();
+                mds.push(val);
+            }
         }
-        
-        return res;
+        return ans;
     }
 };
 
-
+// BruteForce Solution
 // class Solution {
 // public:
 //     vector<int> nextGreaterElements(vector<int>& nums) {
-//         vector<int> newNums(nums);
-//         newNums.insert(newNums.end(), nums.begin(), nums.end());
-//         vector<int> res;
-//         stack<int> st;
-//         for (int i=newNums.size()-1; i>=0; --i) {
-//             while (!st.empty() && newNums[i] >= st.top()) st.pop();
-//             if (i < nums.size()) res.push_back(st.empty() ? -1 : st.top());
-//             st.push(newNums[i]);
+//         vector<int> ans;
+//         int n = nums.size();
+//         for (int i=0; i<n; ++i) {
+//             bool flag = false;
+//             for (int ind=(i+1)%n; ind!=i; ind=(ind+1)%n) {
+//                 if (nums[ind] > nums[i]) {
+//                     ans.push_back(nums[ind]);
+//                     flag = true;
+//                     break;
+//                 }
+//             }
+//             if (!flag) ans.push_back(-1);
 //         }
-//         reverse(res.begin(), res.end());
-//         return res;
+//         return ans;
 //     }
 // };
+// TC:
+// SC:
