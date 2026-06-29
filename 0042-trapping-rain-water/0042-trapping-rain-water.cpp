@@ -1,19 +1,26 @@
 class Solution {
 public:
-    int trap(vector<int>& arr) {
-        int n = arr.size();
-        int left[n];
-        int* right = new int[n];
-        left[0] = arr[0];
-        right[n-1] = arr[n-1];
-        
-        for(int i=1;i<n;++i) left[i] = max(left[i-1], arr[i]);
-        for(int i=n-2;i>=0;--i) right[i] = max(right[i+1], arr[i]);
-            
-        int area = 0;
-        for(int i=0;i<n;++i)
-            area += min(left[i], right[i]) - arr[i];
-        
-        return area;
+    int trap(vector<int>& height) {
+        // we can store the NGE bar of the right for each bar
+        // we can store the PGE bar of the left for each bar
+        // we can use arrays and store the values with duplicated
+        // or
+        // we can just use stack and only store the indexes of NGE or PGE.
+        // Because if we store only indexes no need of storing duplicated values
+
+        int sz = height.size();
+        stack<int> rightNGE;
+        for (int i=sz-1; i>=0; --i) {
+            int val = height[i];
+            if (rightNGE.empty() || val > height[rightNGE.top()]) rightNGE.push(i); // '>' or '>=', No need to include duplicates, it works just fine.
+        }
+        int contained_water = 0;
+        int leftPGE = height[0];
+        for (int ind=0; ind<sz; ++ind) {
+            if (leftPGE < height[ind]) leftPGE = height[ind]; // '<' or '<='
+            contained_water += min(leftPGE, height[rightNGE.top()]) - height[ind];
+            if (ind == rightNGE.top()) rightNGE.pop();
+        }
+        return contained_water;
     }
 };
