@@ -30,8 +30,6 @@ public:
 //     }
 // };
 
-
-
 // class Solution {
 // private:
 //     bool isPrime(int n) {
