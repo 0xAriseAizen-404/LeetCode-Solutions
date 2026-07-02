@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2677-cousins-in-binary-tree-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Topological Sort
 |  |
 | ------- |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2868-continuous-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2868-continuous-subarrays) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -842,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Math
 |  |
 | ------- |
@@ -1024,6 +1028,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2171-second-minimum-time-to-reach-destination](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## String Matching
 |  |
 | ------- |
@@ -1140,4 +1145,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1827-invalid-tweets](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2087-confirmation-rate) |
+## Graph Theory
+|  |
+| ------- |
+| [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
