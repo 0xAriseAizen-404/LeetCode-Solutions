@@ -18,11 +18,18 @@ class Solution {
             TreeNode *node = root;
             while (node != nullptr) {
                 if (node->left == nullptr) {
+                    // left root right
+                    // if there is no left subtree then just push root value, move to right
                     inorder.push_back(node->val);
                     node = node->right;
                 } else {
                     TreeNode *prev = node->left;
+                    // Finding the RightMost node, to make a connection to Root. have to check if already we made a connection or not.
                     while (prev->right && prev->right != node) prev = prev->right;
+                    // if there is no connect, then make the connection to node, now that we made the connection, we are already standing at Node right. so then move to left substree, because this is inorder rigth - left root right, now we made a connection, traverse to left substree, then we will get back to the rightmost node and then now already there is a connection right we will just push the node and mode to right in else part.
+                    // understand right ?
+                    // get to the RightMost node, if there is not connection make the connection to root, and go the left
+                    // traverse all the left and then we will get to rightmost node and then already there is a connection right, so we remove that connection and push the node value, move to right substree of node.
                     if (prev->right == nullptr) {
                         prev->right = node;
                         node = node->left;
