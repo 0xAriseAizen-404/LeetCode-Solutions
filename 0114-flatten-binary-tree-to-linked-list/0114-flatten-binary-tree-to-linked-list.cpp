@@ -9,22 +9,28 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// My Own Fucking Solution
 class Solution {
-private:
-    TreeNode* flattenTree(TreeNode* node) {
-        if (!node) return nullptr;
-        if (!node->left && !node->right) return node;
-        TreeNode* leftPart = flattenTree(node->left);
-        TreeNode* rightPart = flattenTree(node->right);
-        if (leftPart) {
-            leftPart->right = node->right;
-            node->right = node->left;
-            node->left = nullptr;
-        }
-        return rightPart ? rightPart : leftPart;
-    }
 public:
     void flatten(TreeNode* root) {
-        flattenTree(root);
+        if (!root) return;
+        stack<TreeNode*> st; st.push(root);
+        TreeNode* prev = nullptr;
+        while (!st.empty()) {
+            TreeNode* node = st.top(); st.pop();
+            if (prev) {
+                prev->left = nullptr;
+                prev->right = node;
+            }
+            if (node->right) st.push(node->right);
+            if (node->left) st.push(node->left);
+            prev = node;
+        }
+        if (prev) {
+            prev->left = nullptr;
+            prev->right = nullptr;
+        }
     }
 };
+// TC: O(n)
+//SC: O(h)
