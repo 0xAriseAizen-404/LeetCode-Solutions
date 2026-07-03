@@ -10,6 +10,13 @@
  * };
  */
 
+// | Traversal         | Time | Auxiliary Space | Uses Stack/Recursion |
+// | ----------------- | ---- | --------------- | -------------------- |
+// | Recursive DFS     | O(n) | O(h)            | Yes                  |
+// | Iterative (Stack) | O(n) | O(h)            | Yes                  |
+// | Morris Traversal  | O(n) | **O(1)**        | **No**               |
+
+
 // Morris Inorder Traversal
 class Solution {
     public:
