@@ -10,7 +10,7 @@
  * };
  */
 
-// Morris Traversal
+// Morris Inorder Traversal
 class Solution {
     public:
         vector<int> inorderTraversal(TreeNode *root) {
@@ -36,7 +36,6 @@ class Solution {
             return inorder;
         }
 };
-
 
 // Recursive Approach
 // class Solution {
