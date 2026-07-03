@@ -10,22 +10,50 @@
  * };
  */
 
-// Recursive Approach
+// Morris Traversal
 class Solution {
-private:
-    void inOrder(TreeNode *root, vector<int> &res) {
-        if (!root) return;
-        inOrder(root->left, res);
-        res.push_back(root->val);
-        inOrder(root->right, res);
-    }
-public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
-        inOrder(root, res);
-        return res;
-    }
+    public:
+        vector<int> inorderTraversal(TreeNode *root) {
+            vector<int> inorder;
+            TreeNode *node = root;
+            while (node != nullptr) {
+                if (node->left == nullptr) {
+                    inorder.push_back(node->val);
+                    node = node->right;
+                } else {
+                    TreeNode *prev = node->left;
+                    while (prev->right && prev->right != node) prev = prev->right;
+                    if (prev->right == nullptr) {
+                        prev->right = node;
+                        node = node->left;
+                    } else {
+                        prev->right = nullptr;
+                        inorder.push_back(node->val);
+                        node = node->right;
+                    }
+                }
+            }
+            return inorder;
+        }
 };
+
+
+// Recursive Approach
+// class Solution {
+// private:
+//     void inOrder(TreeNode *root, vector<int> &res) {
+//         if (!root) return;
+//         inOrder(root->left, res);
+//         res.push_back(root->val);
+//         inOrder(root->right, res);
+//     }
+// public:
+//     vector<int> inorderTraversal(TreeNode* root) {
+//         vector<int> res;
+//         inOrder(root, res);
+//         return res;
+//     }
+// };
 // TC: O(n)
 // SC: O(h)  // O(log n) balanced, O(n) skewed
 
