@@ -367,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
@@ -508,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
@@ -554,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0199-binary-tree-right-side-view) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0198-house-robber) |
