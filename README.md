@@ -905,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
+| [4135-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4135-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Backtracking
 |  |
 | ------- |
