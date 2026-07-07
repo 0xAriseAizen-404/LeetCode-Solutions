@@ -9,6 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// Morris Traversal Approach
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -38,3 +39,20 @@ public:
         return valid;
     }
 };
+// TC: O(n)
+// SC: O(1)
+
+// Recursive DFS Approach
+// class Solution {
+//     bool dfs(TreeNode* node, long long low, long long high) {
+//         if (!node) return true;
+//         if (node->val <= low || node->val >= high) return false;
+//         return dfs(node->left, low, node->val) && dfs(node->right, node->val, high);
+//     }
+// public:
+//     bool isValidBST(TreeNode* root) {
+//         return dfs(root, LLONG_MIN, LLONG_MAX);
+//     }
+// };
+// TC: O(n)
+// SC: O(h)   // O(log n) for balanced tree, O(n) for skewed tree
