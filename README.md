@@ -1162,6 +1162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
+| [1212-sequential-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1212-sequential-digits) |
 ## Doubly-Linked List
 |  |
 | ------- |
