@@ -1,36 +1,19 @@
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
-
-        vector<int> sortedArr = arr;
-        sort(sortedArr.begin(), sortedArr.end());
-        unordered_map<int, int> umap;
-        int rank = 1;
-        for (const auto &x : sortedArr) {
-            if (umap.find(x) == umap.end()) {
-                umap[x] = rank++;
-            }
-        }
-        vector<int> res(arr.size());
-        for (int i = 0; i < arr.size(); ++i) {
-            res[i] = umap[arr[i]];
+        int n = arr.size();
+        if (n == 0) return {};
+        vector<int> res(n);
+        vector<pair<int,int>> temp(n);
+        for (int i = 0; i < n; i++) temp[i] = {arr[i],i};
+        sort(temp.begin(),temp.end(),[](pair<int,int> &a , pair<int,int> &b) {
+            return a.first < b.first;
+        });
+        res[temp[0].second] = 1;
+        for (int i = 1; i < n; i++) {
+            if (temp[i].first == temp[i - 1].first) res[temp[i].second] = res[temp[i - 1].second];
+            else res[temp[i].second] = res[temp[i - 1].second] + 1;
         }
         return res;
-
-        // priority_queue<int, vector<int>, greater<int>> pq;
-        // for (const auto &x: arr) pq.push(x);
-        // unordered_map<int, int> umap;
-        // int rank = 1;
-        // while (!pq.empty()) {
-        //     if (umap.find(pq.top()) == umap.end()) {
-        //         umap[pq.top()] = rank++;
-        //     }
-        //     pq.pop();
-        // }
-        // vector<int> res(arr.size(), 1);
-        // for (int i=0; i<arr.size(); ++i) {
-        //     res[i] = umap[arr[i]];
-        // }
-        // return res;
     }
 };
