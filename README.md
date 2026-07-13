@@ -397,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -548,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -614,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -747,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
