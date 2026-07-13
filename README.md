@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0621-task-scheduler) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0647-palindromic-substrings) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0908-middle-of-the-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -413,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0322-coin-change) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0787-sliding-puzzle](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0787-sliding-puzzle) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -529,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
@@ -557,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0450-delete-node-in-a-bst) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -592,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0784-insert-into-a-binary-search-tree) |
