@@ -1057,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3451-string-compression-iii) |
+| [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -1171,6 +1172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [1212-sequential-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1212-sequential-digits) |
+| [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Doubly-Linked List
 |  |
 | ------- |
