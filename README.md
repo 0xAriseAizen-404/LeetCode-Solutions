@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0628-maximum-product-of-three-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0539-minimum-time-difference](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0621-task-scheduler](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0621-task-scheduler) |
+| [0628-maximum-product-of-three-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
@@ -929,6 +931,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0628-maximum-product-of-three-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0670-maximum-swap) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
