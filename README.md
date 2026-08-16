@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [4033-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4033-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
 | ------- |
@@ -660,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3291-find-if-array-can-be-sorted](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3394-minimum-array-end) |
+| [4033-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4033-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Queue
 |  |
 | ------- |
