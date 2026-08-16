@@ -863,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2227-sum-of-subarray-ranges](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
+| [2470-removing-stars-from-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [3447-clear-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
@@ -879,6 +880,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2470-removing-stars-from-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3447-clear-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3447-clear-digits) |
@@ -1044,6 +1046,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2190-count-common-words-with-one-occurrence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2470-removing-stars-from-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
