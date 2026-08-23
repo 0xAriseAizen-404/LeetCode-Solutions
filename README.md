@@ -1220,6 +1220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1390-average-selling-price](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1415-students-and-examinations) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
+| [1625-group-sold-products-by-the-date](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1625-group-sold-products-by-the-date) |
 | [1664-find-users-with-valid-e-mails](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1664-find-users-with-valid-e-mails) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1773-percentage-of-users-attended-a-contest) |
