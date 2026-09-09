@@ -956,6 +956,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3859-maximum-product-of-two-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3859-maximum-product-of-two-digits) |
 | [4135-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4135-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [4245-count-commas-in-range](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4245-count-commas-in-range) |
 | [4248-count-commas-in-range-ii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4248-count-commas-in-range-ii) |
 ## Backtracking
 |  |
