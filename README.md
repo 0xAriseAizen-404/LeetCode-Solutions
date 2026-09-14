@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [4033-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4033-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3349-maximum-length-substring-with-two-occurrences](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3349-maximum-length-substring-with-two-occurrences) |
+| [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 ## Two Pointers
 |  |
 | ------- |
@@ -825,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
+| [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 ## Stack
 |  |
 | ------- |
@@ -1185,6 +1188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [1212-sequential-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1212-sequential-digits) |
+| [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Doubly-Linked List
 |  |
