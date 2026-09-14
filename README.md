@@ -950,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0628-maximum-product-of-three-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0670-maximum-swap) |
+| [0866-rectangle-overlap](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0866-rectangle-overlap) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -1244,4 +1245,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0173-binary-search-tree-iterator) |
+## Geometry
+|  |
+| ------- |
+| [0866-rectangle-overlap](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0866-rectangle-overlap) |
 <!---LeetCode Topics End-->
