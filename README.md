@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
+| [0864-image-overlap](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0864-image-overlap) |
 | [0876-hand-of-straights](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
@@ -903,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0085-maximal-rectangle) |
 | [0787-sliding-puzzle](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0787-sliding-puzzle) |
+| [0864-image-overlap](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0864-image-overlap) |
 | [0921-spiral-matrix-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
