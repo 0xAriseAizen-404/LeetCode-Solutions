@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [4033-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4033-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
@@ -967,6 +968,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3859-maximum-product-of-two-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3859-maximum-product-of-two-digits) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [4135-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4135-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [4245-count-commas-in-range](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4245-count-commas-in-range) |
 | [4248-count-commas-in-range-ii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4248-count-commas-in-range-ii) |
