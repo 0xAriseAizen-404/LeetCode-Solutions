@@ -895,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3447-clear-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3447-clear-digits) |
+| [3811-reverse-degree-of-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3811-reverse-degree-of-a-string) |
 ## Matrix
 |  |
 | ------- |
@@ -1077,6 +1078,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3451-string-compression-iii) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
+| [3811-reverse-degree-of-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3811-reverse-degree-of-a-string) |
 ## Bucket Sort
 |  |
 | ------- |
