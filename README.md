@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2308-divide-array-into-equal-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2308-divide-array-into-equal-pairs) |
+| [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2448-count-number-of-bad-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2448-count-number-of-bad-pairs) |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 ## Binary Indexed Tree
 |  |
@@ -926,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2145-grid-game) |
+| [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
@@ -1268,4 +1271,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
