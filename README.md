@@ -1272,6 +1272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
