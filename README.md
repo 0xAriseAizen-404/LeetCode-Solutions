@@ -484,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -878,7 +879,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
-| [1021-remove-outermost-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1197-parsing-a-boolean-expression) |
@@ -886,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1720-crawler-log-folder](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -1062,7 +1063,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
-| [1021-remove-outermost-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1197-parsing-a-boolean-expression) |
 | [1208-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1208-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -1072,6 +1072,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -1291,9 +1292,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0886-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
-| [1021-remove-outermost-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1208-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1208-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
