@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2868-continuous-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2868-continuous-subarrays) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
@@ -1223,6 +1224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0204-count-primes) |
 | [1212-sequential-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1212-sequential-digits) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Doubly-Linked List
