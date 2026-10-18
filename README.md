@@ -481,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0876-hand-of-straights](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0890-lemonade-change) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1285-balance-a-binary-search-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -873,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0856-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0856-score-of-parentheses) |
 | [0883-car-fleet](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0883-car-fleet) |
 | [0886-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0886-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0937-online-stock-span](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -1057,6 +1059,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0856-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0856-score-of-parentheses) |
 | [0886-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0886-score-of-parentheses) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1197-parsing-a-boolean-expression) |
@@ -1284,6 +1287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0856-score-of-parentheses) |
 | [0886-score-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0886-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1208-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1208-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
