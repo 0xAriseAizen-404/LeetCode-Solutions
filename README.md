@@ -1124,6 +1124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3451-string-compression-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3451-string-compression-iii) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
 | [3811-reverse-degree-of-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3811-reverse-degree-of-a-string) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Bucket Sort
 |  |
 | ------- |
