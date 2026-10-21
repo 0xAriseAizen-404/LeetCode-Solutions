@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2089-maximum-matrix-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2089-maximum-matrix-sum) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2107-find-unique-binary-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2145-grid-game) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Sorting
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
