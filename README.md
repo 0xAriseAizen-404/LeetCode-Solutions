@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
+| [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
 | [4033-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4033-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3859-maximum-product-of-two-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3859-maximum-product-of-two-digits) |
+| [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
 ## Union Find
 |  |
 | ------- |
@@ -998,6 +1000,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3859-maximum-product-of-two-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3859-maximum-product-of-two-digits) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
+| [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
 | [4135-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4135-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [4245-count-commas-in-range](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4245-count-commas-in-range) |
 | [4248-count-commas-in-range-ii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/4248-count-commas-in-range-ii) |
@@ -1242,6 +1245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2778-sum-of-squares-of-special-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3805-maximize-active-section-with-trade-i) |
+| [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
 ## Doubly-Linked List
 |  |
 | ------- |
