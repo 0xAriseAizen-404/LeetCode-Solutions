@@ -16,6 +16,6 @@ public:
         for (int ind = 0; ind < nums.size(); ++ind) {
             if (nums[ind] != ind) res &= ind;
         }
-        return (res == -1 ? 0 : res);
+        return max(0, res);
     }
 };
