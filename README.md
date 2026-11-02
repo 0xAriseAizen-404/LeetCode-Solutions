@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0455-assign-cookies](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
@@ -996,6 +997,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0412-fizz-buzz) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0539-minimum-time-difference](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
