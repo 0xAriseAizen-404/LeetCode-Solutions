@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3799-unique-3-digit-even-numbers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3799-unique-3-digit-even-numbers) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
@@ -1017,6 +1018,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3859-maximum-product-of-two-digits](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3859-maximum-product-of-two-digits) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [3886-sum-of-sortable-integers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3886-sum-of-sortable-integers) |
