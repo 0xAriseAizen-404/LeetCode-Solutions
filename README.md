@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
+| [2747-count-zero-request-servers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2747-count-zero-request-servers) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2747-count-zero-request-servers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2747-count-zero-request-servers) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2379-maximum-total-importance-of-roads](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2747-count-zero-request-servers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2747-count-zero-request-servers) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -740,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2747-count-zero-request-servers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2747-count-zero-request-servers) |
 | [2868-continuous-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2868-continuous-subarrays) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
