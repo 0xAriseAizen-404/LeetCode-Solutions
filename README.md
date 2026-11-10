@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2643-row-with-maximum-ones](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2643-row-with-maximum-ones) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2747-count-zero-request-servers](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2747-count-zero-request-servers) |
@@ -986,6 +987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2145-grid-game) |
 | [2349-check-if-there-is-a-valid-parentheses-string-path](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2349-check-if-there-is-a-valid-parentheses-string-path) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2643-row-with-maximum-ones](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2643-row-with-maximum-ones) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/3558-find-a-safe-walk-through-a-grid) |
