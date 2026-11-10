@@ -1,38 +1,19 @@
+#define all(v) (v).begin(), (v).end()
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+using ll = long long;
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-       int ind = 0;
-       for (int i=0; i<nums.size() - 1; ++i) {
-            if (nums[i] != nums[i+1])
-                nums[ind++] = nums[i];
-       }
-       nums[ind] = nums[nums.size()-1];
-       return ind+1;
+    int removeDuplicates(vector<int> &nums) {
+        fastio
+        // nums.erase(unique(all(nums)), nums.end());
+        // return nums.size();
+        
+        int n = nums.size();
+        int ind = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (nums[i] != nums[i + 1]) nums[ind++] = nums[i];
+        }
+        nums[ind++] = nums[n - 1];
+        return ind;
     }
-
- // set<int> x(nums.begin(),nums.end());
-        // int i = 0;
-        // for(auto ele : x) nums[i++] = ele;
-        // return x.size();
-
-
-
-//     unordered_map<int,bool> m;
-//     for(int i :arr){
-//         if(m.count(i)>0){
-//             continue;
-//         }
-//         m[i] = false;
-//     }
-//     vector<int> ans;
-//     for(int i:arr){
-//         if(m[i]==false){
-//             ans.push_back(i);
-//             m[i] = true;
-//         }
-
-//     }
-//         arr=ans;
-//     return ans.size();
-//     }
 };
