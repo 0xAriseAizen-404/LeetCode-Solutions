@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -771,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -829,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -1032,6 +1035,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0866-rectangle-overlap](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/0866-rectangle-overlap) |
 | [1240-stone-game-ii](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
 | [2409-count-days-spent-together](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2409-count-days-spent-together) |
