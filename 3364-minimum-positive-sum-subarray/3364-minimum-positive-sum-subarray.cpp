@@ -4,15 +4,38 @@ public:
     int minimumSumSubarray(vector<int>& nums, int l, int r) {
         FAST_IO;
         int _min_sub_sum = INT_MAX;
-        for (int i = 0; i < nums.size(); ++i) {
+        for (int k = l; k <= r; ++k) {
             int _pre_sum = 0;
-            for (int j = i; j < nums.size(); ++j) {
-                _pre_sum += nums[j];
-                int _sub_len = j - i + 1;
-                if (l <= _sub_len && _sub_len <= r && _pre_sum > 0)
-                    _min_sub_sum = min(_min_sub_sum, _pre_sum);
+            for (int ind = 0; ind < nums.size(); ++ind) {
+                _pre_sum += nums[ind];
+                if (ind >= k - 1) {
+                    if (_pre_sum > 0) _min_sub_sum = min(_min_sub_sum, _pre_sum);
+                    _pre_sum -= nums[ind - k + 1];
+                }
             }
         }
         return _min_sub_sum == INT_MAX ? -1 : _min_sub_sum;
     }
 };
+// TC: O((r - l + 1) * N)
+// SC: O(1)
+
+// class Solution {
+// public:
+//     int minimumSumSubarray(vector<int>& nums, int l, int r) {
+//         FAST_IO;
+//         int _min_sub_sum = INT_MAX;
+//         for (int i = 0; i < nums.size(); ++i) {
+//             int _pre_sum = 0;
+//             for (int j = i; j < nums.size(); ++j) {
+//                 _pre_sum += nums[j];
+//                 int _sub_len = j - i + 1;
+//                 if (l <= _sub_len && _sub_len <= r && _pre_sum > 0)
+//                     _min_sub_sum = min(_min_sub_sum, _pre_sum);
+//             }
+//         }
+//         return _min_sub_sum == INT_MAX ? -1 : _min_sub_sum;
+//     }
+// };
+// TC: O(N ** 2)
+// SC: O(1)
