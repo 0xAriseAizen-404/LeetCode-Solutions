@@ -1166,6 +1166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/0xAriseAizen-404/LeetCode-Solutions/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/arise-aizen-404/LeetCode-Solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
