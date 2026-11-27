@@ -11,24 +11,32 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* tailA = l1;
+        ListNode* tailB = l2;
         int carry = 0;
-        ListNode* dummy = new ListNode(0);
+        int value = 0;
+        ListNode* dummy = new ListNode(-1);
         ListNode* curr = dummy;
-        while (l1 || l2) {
-            int summ = carry;
-            if (l1) {
-                summ += l1->val;
-                l1 = l1->next;
+        while (tailA || tailB) {
+            value = 0;
+            if (tailA) {
+                value += tailA->val;
+                tailA = tailA->next;
             }
-            if (l2) {
-                summ += l2->val;
-                l2 = l2->next;
+            if (tailB) {
+                value += tailB->val;
+                tailB = tailB->next;
             }
-            curr->next = new ListNode(summ % 10);
-            curr = curr->next;
-            carry = summ / 10;
+            value += carry;
+            
+            dummy->next = new ListNode(value % 10);
+            dummy = dummy->next;
+            carry = value / 10;
         }
-        if (carry) curr->next = new ListNode(carry);
-        return dummy->next;
+        if (carry) dummy->next = new ListNode(carry);
+        return curr->next;
     }
 };
+// Digit-wise addition with carry using a dummy head (single pass over both lists)
+// TC: O(max(n, m))
+// SC: O(max(n, m))   // for the output list; auxiliary extra space is O(1)
